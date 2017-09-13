@@ -3,6 +3,7 @@
 \usepackage{latexsym}
 \usepackage{fancybox}
 \usepackage{graphicx}
+\usepackage{natbib}
 \usepackage{color}
 \usepackage{amsmath}
 \usepackage{ulem}
@@ -45,14 +46,28 @@
 Inst.: Kast\hspace{1.3cm} Req.: 17 nights}}\\[-1cm]
 \begin{center}
 \bf\Large
-Spectroscopic Redshifts for Massive Galaxies Catalogs 
+A Potentially Transformative Approach to Cluster Cosmology 
 \end{center}
 
 \section{Scientific Justification} 
 
-This is the text for scientific justification. 2 pages maximum. 
+Pinning down the nature of dark energy is one of the most pressing questions in modern physics. Dark energy is thought to be either a cosmological constant with an equation of state $w=P/\rho=-1$ which remains constant at all times, a new type of fluid with an equation of state that varies with time ($w \neq$ constant), or dark energy might indicate a breakdown of Einstein's Theory of General Relativity. It is of critical importance to distinguish between these three scenarios. This can only be accomplished by ambitious and demanding measurements of both the expansion rate of the universe (to track the time evolution of dark energy) together with measurements of the rate at which cosmic structures, such as galaxies and clusters of galaxies, grow with time (the ``growth rate"). The redshift evolution of the abundance of massive clusters is a direct probe the growth of large scale structures.
 
-Significance of spec-z for building cluster catalogs...
+The Hyper Suprime Cam survey (2014-2019) is a large (1400 deg$^2$), deep (i$\sim$26.5), lensing survey conducted on the Subaru telescope. One of the goals of the HSC survey is to identify galaxy clusters and to constrain the growth of large scale structure in the redshift range where the effects are dark energy are the largest ($z<0.5$). The default plan in HSC, is to identify clusters via the  ``red-sequence" method. In recent years, the quality of optical red-sequence clusters finders has much improved, with the state-of-the-art being the redMaPPer cluster finder \citep[][]{Rykoff:2014,Rozo:2014}. However, as the volume of data increases (imposing correspondingly stricter requirements on systematic errors), three aspects are becoming serious limiting factors:
+
+\begin{enumerate}
+\item It is not straightforward to identify the galaxy at the center of the cluster (the ``central galaxy''). This creates mis-centering errors which directly propage into errors on halo masses from weak lensing.
+\item Red-sequence cluster finders are prone to projection effects and some ``massive clusters'' are actually two smaller systems projected along the line-of-sight \citep[e.g.,][]{Busch:2017aa}. Conversely, red-sequence cluster finders also sometimes accidentally break up massive clusters into two smaller systems (``fragmentation''). 
+\item The solution to 1) and 2) is to forward model the cluster finding process by running red-sequence cluster finders on mock observations. However, building mock catalogs that are reliable enough to completely forward model this process is a long standing issue in this field to which there is no immediate solution at hand.
+\end{enumerate}
+
+
+With these challenges in mind, our group has been using HSC data to explore some exciting and potentially transformative new ideas about optical cluster finding. The basic idea, while exceedingly simple, appears to be performing amazingly well. Our approach is based on the idea that galaxies that live at the very centers of clusters (BCGs; Brightest Cluster Galaxies) have extended light profiles which distinguish them from other galaxies \citep[][Huang et al. in prep]{Huang:2017a}. With deep enough data, we are finding that BCGs can be identified directly based their extended light profiles and their luminosities. Why has this method not been used previously? Mainly because of a prevailing consensus that the luminosities of central galaxies do not correlate with halo mass as well as ``richness'' estimators such as the redMaPPer $\lambda$ parameter\footnote{The logarithmic scatter in halo mass at fixed $\lambda$ is thought to be lower than the scatter in halo mass at fixed galaxy mass ($\sigma_{Mhalo|\lambda}=0.16$ dex < $\sigma_{Mhalo|M*}=0.25$ dex)}. With more in-depth investigation, however, we are finding that these ideas stem from the use of shallow imaging data (such as SDSS) and poorly estimated luminosities. Instead, with deeper data, and using more carefully extracted luminosities \citep[][]{Huang:2017a}, our weak lensing test are showing that the luminosities of central galaxies trace halos as well (and possibly even better) than $\lambda$!
+
+Our new approach has advantages over red-sequence based methods for all three key points 1), 2), and 3). Our method identifies BCGs directly via their extended light profiles and projection effects should be minimal. Furthermore, the simplicity of this method imposes less stringent requirements on mock catalogs. Mocks for this cluster finder would only need to model the connection between massive central galaxies and their halos (a more simple task than modeling the full red-sequence population).
+
+The massive galaxy catalog that we intend to use to apply this method to HSC is comprised of super massive galaxies ($\log(M_*)>11.5$) at $z<0.5$. The majority of galaxies in our sample have spectrosocpic redshifts from either the GAMA survey, or the BOSS survey. However, there are still a small number of galaxies i our sample for which we are lacking redshifts. \textbf{The goal of this proposal is to aquire spectrosocpic redshift for galaxies in our sample which currenlty only have a photoz}. This is critical to our science because it will enable us to confirm the redshifts of the clusters, to disentangle projection effects, and also to remove a small number of satellite galaxies. The number density of galaxies for which we do not already have a redshift is very low (less than one per square degree). Therefore, aquire spectrosocpic redshifts cannot benefit from any multiplexing advantages and so our targets are well suited for single slit spectroscopy with KAST. The spectroscopically complete sample that we will compile will be similar to the DESI Bright Galaxy Survey (BGS). Thus, our sample will also of tremendous values for the preparation of the DESI spectrocopic survey.
+
 
 Currently, the total number of galaxies in the cluster catalogs with spectroscopic redshifts is 
 XX. With Kast observations, we will eventually add 61 galaxies in three different GAMA fields that 
