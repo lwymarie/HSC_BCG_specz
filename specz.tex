@@ -1,4 +1,5 @@
-\documentclass[letterpaper,12pt,dvips]{article}
+%\documentclass[letterpaper,12pt,dvips]{article}
+\documentclass[letterpaper,12pt]{article}
 
 \usepackage{latexsym}
 \usepackage{fancybox}
@@ -51,96 +52,125 @@ A Potentially Transformative Approach to Cluster Cosmology
 
 \section{Scientific Justification} 
 
-Pinning down the nature of dark energy is one of the most pressing questions in modern physics. Dark energy is thought to be either a cosmological constant with an equation of state $w=P/\rho=-1$ which remains constant at all times, a new type of fluid with an equation of state that varies with time ($w \neq$ constant), or dark energy might indicate a breakdown of Einstein's Theory of General Relativity. It is of critical importance to distinguish between these three scenarios. This can only be accomplished by ambitious and demanding measurements of both the expansion rate of the universe (to track the time evolution of dark energy) together with measurements of the rate at which cosmic structures, such as galaxies and clusters of galaxies, grow with time (the ``growth rate"). The redshift evolution of the abundance of massive clusters is a direct probe the growth of large scale structures.
+Pinning down the nature of dark energy is one of the most pressing questions in modern physics. Dark energy is thought
+to be either a cosmological constant with an equation of state that remains constant at all times ($w=P/\rho=-1$), a
+new type of fluid with an equation of state that varies with time ($w \neq$ constant), or dark energy might indicate a
+breakdown of Einstein's Theory of General Relativity. It is of critical importance to distinguish between these three
+scenarios. This can only be accomplished by ambitious and demanding measurements of both the expansion rate of the
+universe (to track the time evolution of dark energy) together with measurements of the rate at which cosmic
+structures, such as galaxies and clusters of galaxies, grow with time (the growth rate). The redshift evolution of
+the abundance of massive clusters is a direct probe of the growth of large scale structures.
 
-The Hyper Suprime Cam survey (2014-2019) is a large (1400 deg$^2$), deep (i$\sim$26.5), lensing survey conducted on the Subaru telescope. One of the goals of the HSC survey is to identify galaxy clusters and to constrain the growth of large scale structure in the redshift range where the effects are dark energy are the largest ($z<0.5$). The default plan in HSC, is to identify clusters via the  ``red-sequence" method. In recent years, the quality of optical red-sequence clusters finders has much improved, with the state-of-the-art being the redMaPPer cluster finder \citep[][]{Rykoff:2014,Rozo:2014}. However, as the volume of data increases (imposing correspondingly stricter requirements on systematic errors), three aspects are becoming serious limiting factors:
+The Hyper Suprime Cam survey is a large (1400 deg$^2$), deep ($i\approx26.5$), lensing survey conducted on the Subaru
+telescope between 2014 to 2019. One of the goals of the HSC survey is to identify galaxy clusters and to constrain
+the growth of large scale structure in the redshift range where the effects are dark energy are the largest, namely
+$z<0.5$. The default plan in HSC is to identify clusters via the  ``red-sequence'' method. In recent years, the quality of
+optical red-sequence clusters finders has much improved, with the state-of-the-art being the redMaPPer cluster finder
+(Rykoff et al. 2014; Rozo et al. 2014). However, as the volume of data increases, imposing correspondingly stricter
+requirements on systematic errors, three aspects are becoming serious limiting factors:
 
 \begin{enumerate}
-\item It is not straightforward to identify the galaxy at the center of the cluster (the ``central galaxy''). This creates mis-centering errors which directly propage into errors on halo masses from weak lensing.
-\item Red-sequence cluster finders are prone to projection effects and some ``massive clusters'' are actually two smaller systems projected along the line-of-sight \citep[e.g.,][]{Busch:2017aa}. Conversely, red-sequence cluster finders also sometimes accidentally break up massive clusters into two smaller systems (``fragmentation''). 
-\item The solution to 1) and 2) is to forward model the cluster finding process by running red-sequence cluster finders on mock observations. However, building mock catalogs that are reliable enough to completely forward model this process is a long standing issue in this field to which there is no immediate solution at hand.
+\item It is not straightforward to identify the galaxy at the center of the cluster, or the central galaxy. This
+creates mis-centering errors which directly propagate into errors on halo masses from weak lensing.
+\item Red-sequence cluster finders are prone to projection effects and some ``massive clusters'' are actually two
+smaller systems projected along the line-of-sight (e.g.\ Busch et al. 2017). Conversely, red-sequence cluster finders
+also sometimes accidentally break up massive clusters into two smaller systems, known as ``fragmentation''.
+\item The solution to (1.) and (2.) is to forward model the cluster finding process by running red-sequence cluster
+finders on mock observations. However, building mock catalogs that are reliable enough to completely forward model this
+process is a long standing issue in this field to which there is no immediate solution at hand.
 \end{enumerate}
 
+With these challenges in mind, our group has been using HSC data to explore some exciting and potentially
+transformative new ideas about optical cluster finding. The basic idea, while exceedingly simple, appears to be
+performing amazingly well. Our approach is based on the idea that galaxies that live at the very centers of clusters
+(BCGs; Brightest Cluster Galaxies) have extended light profiles which distinguish them from other galaxies
+(Huang et al. in preparation). With deep enough data, we are finding that BCGs can be identified directly based on
+their extended light profiles and their luminosities. So why has this method not been used previously? It is largely
+because of a prevailing consensus that the luminosities of central galaxies do not correlate with halo mass as well as
+``richness'' estimators such as the redMaPPer $\lambda$ parameter\footnote{The logarithmic scatter in halo mass at
+fixed $\lambda$ ($\sigma_{M_{\rm halo}|\lambda}=0.16\,{\rm dex}$) was thought to be lower than the scatter in halo mass
+at fixed galaxy mass ($\sigma_{M_{\rm halo}|M_*}=0.25\,{\rm dex}$).}. With more in-depth investigation, however, we are
+finding that these ideas stem from the use of shallow imaging data (such as SDSS) and poorly estimated luminosities.
+Instead, with deeper data, and using more carefully extracted luminosities (Huang et al. 2017), our weak lensing tests
+are showing that the luminosities of central galaxies trace halos as well as $\lambda$, and possibly even better!
 
-With these challenges in mind, our group has been using HSC data to explore some exciting and potentially transformative new ideas about optical cluster finding. The basic idea, while exceedingly simple, appears to be performing amazingly well. Our approach is based on the idea that galaxies that live at the very centers of clusters (BCGs; Brightest Cluster Galaxies) have extended light profiles which distinguish them from other galaxies \citep[][Huang et al. in prep]{Huang:2017a}. With deep enough data, we are finding that BCGs can be identified directly based their extended light profiles and their luminosities. Why has this method not been used previously? Mainly because of a prevailing consensus that the luminosities of central galaxies do not correlate with halo mass as well as ``richness'' estimators such as the redMaPPer $\lambda$ parameter\footnote{The logarithmic scatter in halo mass at fixed $\lambda$ is thought to be lower than the scatter in halo mass at fixed galaxy mass ($\sigma_{Mhalo|\lambda}=0.16$ dex < $\sigma_{Mhalo|M*}=0.25$ dex)}. With more in-depth investigation, however, we are finding that these ideas stem from the use of shallow imaging data (such as SDSS) and poorly estimated luminosities. Instead, with deeper data, and using more carefully extracted luminosities \citep[][]{Huang:2017a}, our weak lensing test are showing that the luminosities of central galaxies trace halos as well (and possibly even better) than $\lambda$!
+Our new approach has advantages over red-sequence based methods for all three key points (1.), (2.), and (3.). Our
+method identifies BCGs directly via their extended light profiles, and projection effects should be minimal.
+Furthermore, the simplicity of this method imposes less stringent requirements on mock catalogs. Mocks for this cluster
+finder would only need to model the connection between massive central galaxies and their halos, a more simple task
+than modeling the full red-sequence population.
 
-Our new approach has advantages over red-sequence based methods for all three key points 1), 2), and 3). Our method identifies BCGs directly via their extended light profiles and projection effects should be minimal. Furthermore, the simplicity of this method imposes less stringent requirements on mock catalogs. Mocks for this cluster finder would only need to model the connection between massive central galaxies and their halos (a more simple task than modeling the full red-sequence population).
-
-The massive galaxy catalog that we intend to use to apply this method to HSC is comprised of super massive galaxies ($\log(M_*)>11.5$) at $z<0.5$. The majority of galaxies in our sample have spectrosocpic redshifts from either the GAMA survey, or the BOSS survey. However, there are still a small number of galaxies i our sample for which we are lacking redshifts. \textbf{The goal of this proposal is to aquire spectrosocpic redshift for galaxies in our sample which currenlty only have a photoz}. This is critical to our science because it will enable us to confirm the redshifts of the clusters, to disentangle projection effects, and also to remove a small number of satellite galaxies. The number density of galaxies for which we do not already have a redshift is very low (less than one per square degree). Therefore, aquire spectrosocpic redshifts cannot benefit from any multiplexing advantages and so our targets are well suited for single slit spectroscopy with KAST. The spectroscopically complete sample that we will compile will be similar to the DESI Bright Galaxy Survey (BGS). Thus, our sample will also of tremendous values for the preparation of the DESI spectrocopic survey.
-
-
-Currently, the total number of galaxies in the cluster catalogs with spectroscopic redshifts is 
-XX. With Kast observations, we will eventually add 61 galaxies in three different GAMA fields that 
-currently only have photometric redshifts in the catalogs. We cut this target sample at stellar 
-mass $M_*>10^{11.5}\,{\rm M}_\odot$, with nearby pair at $<1$\,Mpc, and at 
-$0.25<z_{\rm phot}<0.55$. We make a generous cut on photometric redshifts to ensure that all 
-$0.3 < z < 0.5$ objects are covered. 
-
-Our major analysis work is to fit the Kast spectra with independent component stellar templates 
-using pPXF (Cappellari \& Emsellem 2004), with emphasis on the 4000\,\AA\ break. We were granted 
-director's discretionary time in 2017 July for a trial Kast run. We observed four galaxies that 
-have spectroscopic redshifts already determined in SDSS, to determine the signal-to-noise required 
-for deriving reliable spectroscopic redshifts using Kast, and the brightness limit of the 
-galaxies. We observed four galaxies of SDSS magnitude $r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, 
-each with exposure time $3600\textrm{---}7200$\,s. We performed preliminary data reduction using 
-PYPIT. Figure 1 shows the Kast spectra smoothed for clarity, the SDSS spectra, and the models. 
-While proper fluxing and cosmic ray rejection are still in progress, we demonstrated that 
-signal-to-noise of $\approx5$ is sufficient for measuring redshift with precision of 
-$XX\,{\rm km\,s^{-1}}$. In turn, this implies our program is feasible for galaxies with $r<20.0$. 
+We intend to apply this method to HSC data of a massive galaxy catalog that comprises super massive galaxies with
+$\log\,(M_*/M_\odot)>11.5$ and $z<0.5$. The majority of galaxies in our sample have spectroscopic redshifts from either
+the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which we are
+lacking spectroscopic redshifts. \textbf{The goal of this proposal is to acquire spectroscopic redshift for galaxies in
+our sample that currently only have a photo-$z$}. This is critical to our science because it will enable
+us to confirm the redshifts of the clusters, to disentangle projection effects, and also to remove a small number of
+satellite galaxies. The number density of galaxies for which we do not already have a redshift is very low (less than
+one per square degree). Therefore, acquirement of spectrosocpic redshifts cannot benefit from any multiplexing
+advantages and so our targets are well suited for single-slit spectroscopy with KAST. The spectroscopically complete
+sample that we will compile will be similar to the DESI Bright Galaxy Survey (BGS). Thus, our sample will also be of
+tremendous values for the preparation of the DESI spectrocopic survey.
 
 \clearpage
 
 \noindent{{\bf\large References}}
 \begin{my_itemize}
-\item[] Last name First name, year, journal
+\item Busch, P., et al. 2017, MNRAS
+\item Huang, S., et al. 2017, accepted to PASJ special issue for HSC Subaru Strategic Program
+\item Hutchinson, T. A., et al. 2016, AJ
+\item Rozo, E., et al. 2014, ApJ
+\item Rykoff, E. S., et al. 2014, ApJ
 \end{my_itemize}
 
 \begin{figure}[hbt]
-\includegraphics[width=4.0in]{J1617.eps}
-\includegraphics[width=4.0in]{J1620.eps}
-\includegraphics[width=4.0in]{J2223.eps}
-\includegraphics[width=4.0in]{J2240.eps}
+\includegraphics[width=6in]{J1617.pdf}
+\includegraphics[width=6in]{J2223.pdf}
 \caption{
-Preliminarily reduced and smoothed Kast spectra of four massive galaxies taken in our trial run in 
-2017 July, SDSS spectra of the same galaxies, and the galaxy stellar continuum models generated by 
-pPXF. With signal-to-noise of $\approx5$, redshift can be determined with a precision of 
-$XX\,{\rm km\,s^{-1}}$.}
+Preliminarily reduced and smoothed Kast spectra of two galaxies taken in our trial run on 2017 July 14, SDSS
+spectra of the same galaxies, and the SDSS models. The galaxies have $r=20.0$ and $r=18.4$ respectively. With
+signal-to-noise $\approx5$, the 4000\,\AA-break and the CaII H+K doublet are marginally identifiable.}
 \end{figure}
 
 \begin{figure}[hbt]
-\includegraphics[width=4.0in]{hsc_fields_2018_02.eps}
-\includegraphics[width=4.0in]{hsc_fields_2018_06.eps}
-\caption{(Top) visibility curves of the GAMA-A, GAMA-B, and GAMA-C fields on 2018 February 1. 
-(Bottom) visibility curves on 2018 June 1.}
+\includegraphics[width=5in]{visibility/visibility_feb.pdf}
+\includegraphics[width=5in]{visibility/visibility_may.pdf}
+\caption{(Top) visibility curves of three of our targeted fields on 2018 February 1. (Bottom) visibility curves on 2018
+May 1. March and April will be optimal time for our program.}
 \end{figure}
 
 \clearpage
 
 \section{Targets and Exposures}
 
-We will use the Shane 3m telescope and the Kast spectrograph to observe a sample of 39 early-type 
-galaxies that currently have photometric redshifts, in three different fields covered by GAMA, 
-named GAMA-A, GAMA-B, and GAMA-C. Given the faintness of our targets, dark time is preferred.  
+With Kast observations, we will eventually acquire spectroscopic redshifts of 87 galaxies in six different fields in
+the sky. To ensure that all $0.3 < z < 0.5$ objects are covered, we target objects with $0.25<z_{\rm photo}<0.55$. We
+will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate the Kast spectra with galaxy
+templates. We were granted director discretionary time on 2017 July 14 for a trial run. We observed four galaxies that
+have spectroscopic redshifts already determined in SDSS, to determine the signal-to-noise required for deriving
+reliable spectroscopic redshifts, and the brightness limit for Kast observations. We observed four galaxies of SDSS
+magnitude $r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, each with exposure time $3600\textrm{---}5400$\,s. We performed
+preliminary data reduction using PYPIT. Figure 1 shows our Kast spectra of two of the observed galaxies (smoothed for
+clarity), the SDSS spectra, and the SDSS models. While proper fluxing and cosmic ray rejection are still in progress,
+we demonstrate that signal-to-noise $>5$ is required for spectroscopic redshifts. In turn, this implies our program is
+feasible for galaxies with $r<20.0$.
 
-The SDSS $r$-band magnitudes for our targets range between XX and XX. Our science goal will 
-require $\sim7200$\,s of exposure to obtain sufficient signal-to-noise. These long exposures will 
-be broken into 1800\,s exposures as a compromise between CCD read noise and cosmic ray 
-accumulation. 
-With overhead we expect we can observe $\approx3$ targets per night. To observe a total of 39 
-targets, 13 nights are required at minimum. If available, this program could use an additional 4 
-nights to account for unfavorable observing conditions and possibly observe additional galaxies in 
-the whole Hyper Suprime-Cam footprint. Figure 2 shows the visibility curves of the four fields to 
-be observed on 2018 February 1 and 2018 June 1. Because of the low declination, our targets are 
-only observable in a relatively narrow range of time in a semester. We request time allocation in 
-March and April when more of our targets are within the telescope pointing limit. 
+Among our six targeted fields, three fields are observable in 2018A, namely GAMA-09, GAMA-12, and GAMA-15. We will use
+the Shane 3m telescope and the Kast spectrograph to observe 39 galaxies. Our trial run had Given the faintness of our targets, dark time
+is preferred.
 
-We will setup to resolve the 4000~\AA\ break and other major spectroscopic features such as 
-the Ca II H and K lines, while simultaneously cover a sufficiently broad wavelength range for full 
-SED fitting (Figure 1). As a compromise of the above two requirements, we will use the 600/5000 
-grating on the red side. 
+Our science goal will require $\approx7200$\,s of exposure to obtain sufficient signal-to-noise. These long exposures
+will be broken into 1800\,s exposures as a compromise between CCD read noise and cosmic ray accumulation. With
+overhead, we can observe 3 targets per night. Accounting for poor weather conditions, we request 17 nights. Figure
+2 shows the visibility curves of the three GAMA fields on 2018 February 1 and 2018 May 1. Because of the low
+declination, our targets are only observable in a relatively narrow range of time in a semester. We request time
+allocation in March and April when more of our targets are within the telescope pointing limit.
 
-Table 1 lists all the galaxies in the targeted fields. We will observe additional targets in the 
-Hyper Suprime-Cam footprint if we run out of targets. 
+We will setup to resolve the 4000~\AA\ break and the Ca II H and K lines, while simultaneously cover a sufficiently
+broad wavelength range for full SED fitting (Figure 1). To this end, we will use the 600/5000 grating on the red side.
+
+Table 1 lists the galaxies in the three targeted GAMA fields to be observed in 2018A. We will observe additional
+targets in the HSC footprint if we are granted additional observing time.
 
 In poor observing conditions we will increase exposure time and give preference to bright targets. 
 
@@ -164,7 +194,7 @@ We have none.
 
 \subsection{Status of Previously Approved 3-m Programs}
 
-This program obtained director's discretionary time of one night in 2017A. 
+This program obtained director's discretionary time of one night in 2017A.
 
 PI Lau is a graduate student at UCSC, who has been awarded a total of 22 nights in 2015A, 2016A, 
 and 2017A for the program Late-time Optical Spectral Signatures of Tidal Disruption Candidates. 
