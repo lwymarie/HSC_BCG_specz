@@ -103,14 +103,22 @@ than modeling the full red-sequence population.
 We intend to apply this method to HSC data of a massive galaxy catalog that comprises super massive galaxies with
 $\log\,(M_*/M_\odot)>11.5$ and $z<0.5$. The majority of galaxies in our sample have spectroscopic redshifts from either
 the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which we are
-lacking spectroscopic redshifts. \textbf{The goal of this proposal is to acquire spectroscopic redshift for galaxies in
-our sample that currently only have a photo-$z$}. This is critical to our science because it will enable
-us to confirm the redshifts of the clusters, to disentangle projection effects, and also to remove a small number of
+lacking spectroscopic redshifts. The typical photometric redshift precision $\sigma(z)\approx0.05$ corresponds to a
+co-moving distance of $\approx120\,h^{-1}\,{\rm Mpc}$ at $z=0.5$. This is much larger than the typical size of a dark
+matter halo, so photometric redshifts are prone to projection effects, Photometric redshifts are insufficient for
+distinguishing between galaxies in the same halo versus those in more distance halos. On the other hand, redshift
+precision is limited by the finger-of-god effect. The typical halos of our study have velocity dispersions
+$\sigma(v)\approx600\,{\rm km\,s^{-1}}$, which corresponds to a minimum resolvable distance that sets our desired
+redshift precision.
+
+\textbf{The goal of this proposal is to acquire spectroscopic redshift for galaxies in
+our sample that currently only have a photometric redshift.} This is critical to our science as it enables
+us to confirm the redshifts of the clusters, to disentangle projection effects, and to remove a small number of
 satellite galaxies. The number density of galaxies for which we do not already have a redshift is very low (less than
-one per square degree). Therefore, acquirement of spectrosocpic redshifts cannot benefit from any multiplexing
-advantages and so our targets are well suited for single-slit spectroscopy with KAST. The spectroscopically complete
-sample that we will compile will be similar to the DESI Bright Galaxy Survey (BGS). Thus, our sample will also be of
-tremendous values for the preparation of the DESI spectrocopic survey.
+one per square degree). Therefore, redshift acquirement cannot benefit from any multiplexing advantages and so our
+targets are well-suited for single-slit spectroscopy with KAST. The spectroscopically complete sample that we will
+compile will be similar to the DESI Bright Galaxy Survey. Thus, our sample will also be of tremendous values for the
+preparation of DESI.
 
 \clearpage
 
@@ -144,7 +152,7 @@ May 1. March and April will be optimal time for our program.}
 \section{Targets and Exposures}
 
 With Kast observations, we will eventually acquire spectroscopic redshifts of 87 galaxies in six different fields in
-the sky. To ensure that all $0.3 < z < 0.5$ objects are covered, we target objects with $0.25<z_{\rm photo}<0.55$. We
+the sky.To ensure that all $0.3 < z < 0.5$ objects are covered, we target objects with $0.25<z_{\rm photo}<0.55$. We
 will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate the Kast spectra with galaxy
 templates. We were granted director discretionary time on 2017 July 14 for a trial run. We observed four galaxies that
 have spectroscopic redshifts already determined in SDSS, to determine the signal-to-noise required for deriving
@@ -166,8 +174,9 @@ overhead, we can observe 3 targets per night. Accounting for poor weather condit
 declination, our targets are only observable in a relatively narrow range of time in a semester. We request time
 allocation in March and April when more of our targets are within the telescope pointing limit.
 
-We will setup to resolve the 4000~\AA\ break and the Ca II H and K lines, while simultaneously cover a sufficiently
+We will setup to resolve the 4000\,\AA\ break and the Ca II H and K lines, while simultaneously cover a sufficiently
 broad wavelength range for full SED fitting (Figure 1). To this end, we will use the 600/5000 grating on the red side.
+At 5000\,\AA\, a precision of $600\,{\rm km\,s^{-1}}$ corresponds to 15\,\AA, which will be many resolution elements.
 
 Table 1 lists the galaxies in the three targeted GAMA fields to be observed in 2018A. We will observe additional
 targets in the HSC footprint if we are granted additional observing time.
