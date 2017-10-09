@@ -7,10 +7,13 @@
 \usepackage{natbib}
 \usepackage{color}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{ulem}
 \usepackage{float}
 \usepackage{here}
 \usepackage{multicol}
+\usepackage{caption}
+\usepackage{sidecap}
 
 \pretolerance=10000
 \textwidth=6.5in
@@ -64,10 +67,10 @@ the abundance of massive clusters is a direct probe of the growth of large scale
 The Hyper Suprime Cam survey is a large (1400 deg$^2$), deep ($i\approx26.5$), lensing survey conducted on the Subaru
 telescope between 2014 to 2019. One of the goals of the HSC survey is to identify galaxy clusters and to constrain
 the growth of large scale structure in the redshift range where the effects are dark energy are the largest, namely
-$z<0.5$. The default plan in HSC is to identify clusters via the  ``red-sequence'' method. In recent years, the quality of
-optical red-sequence clusters finders has much improved, with the state-of-the-art being the redMaPPer cluster finder
-(Rykoff et al. 2014; Rozo et al. 2014). However, as the volume of data increases, imposing correspondingly stricter
-requirements on systematic errors, three aspects are becoming serious limiting factors:
+$z<0.4$. The default plan in HSC is to identify clusters via the  ``red-sequence'' method. In recent years, the
+quality of optical red-sequence clusters finders has much improved, with the state-of-the-art being the redMaPPer
+cluster finder (Rykoff et al. 2014; Rozo et al. 2014). However, as the volume of data increases, imposing
+correspondingly stricter requirements on systematic errors, three aspects are becoming serious limiting factors:
 
 \begin{enumerate}
 \item It is not straightforward to identify the galaxy at the center of the cluster, or the central galaxy. This
@@ -101,14 +104,14 @@ finder would only need to model the connection between massive central galaxies 
 than modeling the full red-sequence population.
 
 We intend to apply this method to HSC data of a massive galaxy catalog that comprises super massive galaxies with
-$\log\,(M_*/M_\odot)>11.5$ and $z<0.5$. The majority of galaxies in our sample have spectroscopic redshifts from either
-the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which we are
-lacking spectroscopic redshifts. The typical photometric redshift precision $\sigma(z)\approx0.05$ corresponds to a
-co-moving distance of $\approx120\,h^{-1}\,{\rm Mpc}$ at $z=0.5$, which is much larger than the typical size of a dark
-matter halo $\sim1\,{\rm Mpc}$. Hence photometric redshifts are prone to projection effects, and are insufficient for
-distinguishing between galaxies in the same halo versus those in more distance halos. On the other hand, the minimum
-resolvable distance is limited by the finger-of-god effect. The typical halos of our study have velocity dispersions
-$\sigma(v)\approx600\,{\rm km\,s^{-1}}$ and this sets our desired redshift precision.
+$\log\,(M_*/M_\odot)>11.47$ and $z<0.4$. The majority of galaxies in our sample have spectroscopic redshifts from
+either the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which
+we are lacking spectroscopic redshifts. The typical photometric redshift precision $\sigma(z)\approx0.05$ corresponds
+to a co-moving distance of $\approx120\,h^{-1}\,{\rm Mpc}$ at $z=0.4$, which is much larger than the typical size of a
+dark matter halo $\sim1\,{\rm Mpc}$. Hence photometric redshifts are prone to projection effects, and are insufficient
+for distinguishing between galaxies in the same halo versus those in more distance halos. On the other hand, the
+minimum resolvable distance is limited by the finger-of-god effect. The typical halos of our study have velocity
+dispersions $\sigma(v)\approx600\,{\rm km\,s^{-1}}$ and this sets our desired redshift precision.
 
 \textbf{The goal of this proposal is to acquire spectroscopic redshift for galaxies in
 our sample that currently only have a photometric redshift.} This is critical to our science as it enables
@@ -130,19 +133,29 @@ preparation of DESI.
 \item Rykoff, E. S., et al. 2014, ApJ
 \end{my_itemize}
 
+
 \begin{figure}[hbt]
-\includegraphics[width=6in]{J1617.pdf}
-\includegraphics[width=6in]{J2223.pdf}
+\includegraphics[width=4.7in]{J1617.pdf}
+\includegraphics[width=4.7in]{J2223.pdf}
 \caption{
 Preliminarily reduced and smoothed Kast spectra of two galaxies taken in our trial run on 2017 July 14, SDSS
 spectra of the same galaxies, and the SDSS models. The galaxies have $r=20.0$ and $r=18.4$ respectively. With
 signal-to-noise $\approx5$, the 4000\,\AA-break and the Ca II H+K doublet are marginally identifiable.}
 \end{figure}
 
+\sidecaptionvpos{figure}{c}
+\begin{SCfigure}[10][hbt]
+\includegraphics[width=2.5in]{s16a_massive_photoz_pair_gama_kast_targets.pdf}
+\caption{
+Distribution of our 2018A targeted galaxies, as well as the parent HSC survey sample, in SDSS {\it r}-magnitude and
+redshift.}
+\end{SCfigure}
+
 \begin{figure}[hbt]
 \includegraphics[width=5in]{visibility/visibility_feb.pdf}
 \includegraphics[width=5in]{visibility/visibility_may.pdf}
-\caption{(Top) visibility curves of three of our targeted fields on 2018 February 1. (Bottom) visibility curves on 2018
+\caption{
+(Top) visibility curves of three of our targeted fields on 2018 February 1. (Bottom) visibility curves on 2018
 May 1. March and April will be optimal time for our program.}
 \end{figure}
 
@@ -151,7 +164,8 @@ May 1. March and April will be optimal time for our program.}
 \section{Targets and Exposures}
 
 With Kast observations, we will eventually acquire spectroscopic redshifts of 87 galaxies in six different fields in
-the sky.To ensure that all $0.3 < z < 0.5$ objects are covered, we target objects with $0.25<z_{\rm photo}<0.55$. We
+the sky. We set the lower limit to redshift at $z=0.35$, below which many massive galaxies start to saturate the
+camera. To ensure that all $0.35 < z < 0.40$ objects are covered, we target objects with $0.30<z_{\rm photo}<0.45$. We
 will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate the Kast spectra with galaxy
 templates. We were granted director discretionary time on 2017 July 14 for a trial run. We observed four galaxies that
 have spectroscopic redshifts already determined in SDSS, to determine the signal-to-noise required for deriving
@@ -160,16 +174,17 @@ magnitude $r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, each with exposure time $3
 preliminary data reduction using PYPIT. Figure 1 shows our Kast spectra of two of the observed galaxies (smoothed for
 clarity), the SDSS spectra, and the SDSS models. While proper fluxing and cosmic ray rejection are still in progress,
 we demonstrate that signal-to-noise $>5$ is required for spectroscopic redshifts. In turn, this implies our program is
-feasible for galaxies with $r<20.0$.
+feasible for galaxies with $r\lesssim20$.
 
 Among our six targeted fields, three fields are observable in 2018A, namely GAMA-09, GAMA-12, and GAMA-15. We will use
-the Shane 3m telescope and the Kast spectrograph to observe 39 galaxies. Our trial run had 31\% dark time. Given the
-faintness of our targets, dark time is preferred.
+the Shane 3m telescope and the Kast spectrograph to observe 34 galaxies. The distribution of our 2018A targets as well
+as the parent HSC survey sample in redshift and magnitude is shown in Figure 2. Our trial run had 31\% dark time. Given
+the faintness of our targets, dark time is preferred.
 
 Our science goal will require $\approx7200$\,s of exposure to obtain sufficient signal-to-noise. These long exposures
 will be broken into 1800\,s exposures as a compromise between CCD read noise and cosmic ray accumulation. With
 overhead, we can observe 3 targets per night. Accounting for poor weather conditions and Target of Opportunity
-interrupts, we request 17 nights. Figure 2 shows the visibility curves of the three GAMA fields on 2018 February 1 and
+interrupts, we request 17 nights. Figure 3 shows the visibility curves of the three GAMA fields on 2018 February 1 and
 2018 May 1. Because of the low declination, our targets are only observable in a relatively narrow range of time in a
 semester. We request time allocation in March and April when more of our targets are within the telescope pointing
 limit.
@@ -190,42 +205,42 @@ In poor observing conditions we will increase exposure time and give preference 
 \begin{tabular}{ccccccc}
 \hline
 
-Index & Name & RA (J2000) & Dec (J2000) & SDSS $r$-mag & photo-$z$ & Exposure \\
+Name & RA (J2000) & Dec (J2000) & SDSS $r$-mag & photo-$z$ & Exposure (s) \\
 \hline
- 1 & J091751.99+0356 & 09:17:51.99 & +03:56:10.38 & 19.45 & 0.30 & 5400s \\
- 2 & J145916.60-0103 & 14:59:16.60 & -01:03:17.76 & 17.97 & 0.31 & 5400s \\
- 3 & J091749.63+0357 & 09:17:49.63 & +03:57:28.21 & 18.59 & 0.32 & 5400s \\
- 4 & J145813.92+0030 & 14:58:13.92 & +00:30:24.54 & 19.10 & 0.33 & 5400s \\
- 5 & J115511.15-0031 & 11:55:11.15 & -00:31:26.70 & 19.18 & 0.33 & 5400s \\
- 6 & J091412.19+0300 & 09:14:12.19 & +03:00:13.36 & 19.54 & 0.35 & 5400s \\
- 7 & J145842.01+0038 & 14:58:42.01 & +00:38:10.53 & 18.91 & 0.35 & 5400s \\
- 8 & J090917.11+0403 & 09:09:17.11 & +04:03:19.14 & 19.09 & 0.36 & 5400s \\
- 9 & J090316.77+0351 & 09:03:16.77 & +03:51:39.93 & 18.45 & 0.38 & 5400s \\
-10 & J145415.05-0018 & 14:54:15.05 & -00:18:54.08 & 19.81 & 0.39 & 5400s \\
-11 & J091353.38+0353 & 09:13:53.38 & +03:53:15.42 & 19.34 & 0.40 & 5400s \\
-12 & J145450.36+0009 & 14:54:50.36 & +00:09:34.02 & 19.30 & 0.40 & 5400s \\
-13 & J085706.37+0131 & 08:57:06.37 & +01:31:30.65 & 19.87 & 0.41 & 5400s \\
-14 & J150014.41-0032 & 15:00:14.41 & -00:32:23.52 & 19.62 & 0.41 & 5400s \\
-15 & J091148.76+0325 & 09:11:48.76 & +03:25:12.36 & 19.64 & 0.42 & 5400s \\
-16 & J145400.65-0034 & 14:54:00.65 & -00:34:35.40 & 19.88 & 0.42 & 5400s \\
-17 & J090425.96+0035 & 09:04:25.96 & +00:35:48.75 & 20.19 & 0.43 & 7200s \\
-18 & J090330.44+0327 & 09:03:30.44 & +03:27:06.66 & 19.26 & 0.43 & 5400s \\
-19 & J090223.13+0342 & 09:02:23.13 & +03:42:58.15 & 19.47 & 0.43 & 5400s \\
-20 & J144903.56+0026 & 14:49:03.56 & +00:26:52.30 & 20.11 & 0.43 & 7200s \\
-21 & J143133.57-0045 & 14:31:33.57 & -00:45:11.20 & 20.16 & 0.43 & 7200s \\
-22 & J144341.83-0043 & 14:43:41.83 & -00:43:40.18 & 19.78 & 0.43 & 5400s \\
-23 & J090954.01+0152 & 09:09:54.01 & +01:52:29.43 & 19.86 & 0.44 & 5400s \\
-24 & J145403.99-0014 & 14:54:03.99 & -00:14:20.33 & 19.84 & 0.44 & 5400s \\
-25 & J140316.21-0047 & 14:03:16.21 & -00:47:59.20 & 19.89 & 0.44 & 5400s \\
-26 & J090557.49+0212 & 09:05:57.49 & +02:12:33.37 & 19.62 & 0.45 & 5400s \\
-27 & J085454.38+0032 & 08:54:54.38 & +00:32:55.72 & 20.25 & 0.45 & 7200s \\
-28 & J091720.12+0410 & 09:17:20.12 & +04:10:26.59 & 19.01 & 0.45 & 5400s \\
-29 & J091908.04+0325 & 09:19:08.04 & +03:25:27.52 & 20.07 & 0.45 & 7200s \\
-30 & J090334.79+0307 & 09:03:34.79 & +03:07:54.48 & 20.10 & 0.45 & 7200s \\
-31 & J145154.93+0016 & 14:51:54.93 & +00:16:20.30 & 19.91 & 0.45 & 5400s \\
-32 & J140513.07+0017 & 14:05:13.07 & +00:17:39.83 & 20.02 & 0.45 & 7200s \\
-33 & J145931.33-0002 & 14:59:31.33 & -00:02:44.57 & 20.13 & 0.45 & 7200s \\
-34 & J120422.63-0017 & 12:04:22.63 & -00:17:19.83 & 19.92 & 0.45 & 5400s \\
+J091751.99+0356 & 09:17:51.99 & +03:56:10.38 & 19.45 & 0.30 & 5400 \\
+J145916.60-0103 & 14:59:16.60 & -01:03:17.76 & 17.97 & 0.31 & 5400 \\
+J091749.63+0357 & 09:17:49.63 & +03:57:28.21 & 18.59 & 0.32 & 5400 \\
+J145813.92+0030 & 14:58:13.92 & +00:30:24.54 & 19.10 & 0.33 & 5400 \\
+J115511.15-0031 & 11:55:11.15 & -00:31:26.70 & 19.18 & 0.33 & 5400 \\
+J091412.19+0300 & 09:14:12.19 & +03:00:13.36 & 19.54 & 0.35 & 7200 \\
+J145842.01+0038 & 14:58:42.01 & +00:38:10.53 & 18.91 & 0.35 & 5400 \\
+J090917.11+0403 & 09:09:17.11 & +04:03:19.14 & 19.09 & 0.36 & 5400 \\
+J090316.77+0351 & 09:03:16.77 & +03:51:39.93 & 18.45 & 0.38 & 5400 \\
+J145415.05-0018 & 14:54:15.05 & -00:18:54.08 & 19.81 & 0.39 & 7200 \\
+J091353.38+0353 & 09:13:53.38 & +03:53:15.42 & 19.34 & 0.40 & 5400 \\
+J145450.36+0009 & 14:54:50.36 & +00:09:34.02 & 19.30 & 0.40 & 5400 \\
+J085706.37+0131 & 08:57:06.37 & +01:31:30.65 & 19.87 & 0.41 & 7200 \\
+J150014.41-0032 & 15:00:14.41 & -00:32:23.52 & 19.62 & 0.41 & 7200 \\
+J091148.76+0325 & 09:11:48.76 & +03:25:12.36 & 19.64 & 0.42 & 7200 \\
+J145400.65-0034 & 14:54:00.65 & -00:34:35.40 & 19.88 & 0.42 & 7200 \\
+J090425.96+0035 & 09:04:25.96 & +00:35:48.75 & 20.19 & 0.43 & 9000 \\
+J090330.44+0327 & 09:03:30.44 & +03:27:06.66 & 19.26 & 0.43 & 5400 \\
+J090223.13+0342 & 09:02:23.13 & +03:42:58.15 & 19.47 & 0.43 & 5400 \\
+J144903.56+0026 & 14:49:03.56 & +00:26:52.30 & 20.11 & 0.43 & 9000 \\
+J143133.57-0045 & 14:31:33.57 & -00:45:11.20 & 20.16 & 0.43 & 9000 \\
+J144341.83-0043 & 14:43:41.83 & -00:43:40.18 & 19.78 & 0.43 & 7200 \\
+J090954.01+0152 & 09:09:54.01 & +01:52:29.43 & 19.86 & 0.44 & 7200 \\
+J145403.99-0014 & 14:54:03.99 & -00:14:20.33 & 19.84 & 0.44 & 7200 \\
+J140316.21-0047 & 14:03:16.21 & -00:47:59.20 & 19.89 & 0.44 & 7200 \\
+J090557.49+0212 & 09:05:57.49 & +02:12:33.37 & 19.62 & 0.45 & 7200 \\
+J085454.38+0032 & 08:54:54.38 & +00:32:55.72 & 20.25 & 0.45 & 9000 \\
+J091720.12+0410 & 09:17:20.12 & +04:10:26.59 & 19.01 & 0.45 & 5400 \\
+J091908.04+0325 & 09:19:08.04 & +03:25:27.52 & 20.07 & 0.45 & 9000 \\
+J090334.79+0307 & 09:03:34.79 & +03:07:54.48 & 20.10 & 0.45 & 9000 \\
+J145154.93+0016 & 14:51:54.93 & +00:16:20.30 & 19.91 & 0.45 & 7200 \\
+J140513.07+0017 & 14:05:13.07 & +00:17:39.83 & 20.02 & 0.45 & 9000 \\
+J145931.33-0002 & 14:59:31.33 & -00:02:44.57 & 20.13 & 0.45 & 9000 \\
+J120422.63-0017 & 12:04:22.63 & -00:17:19.83 & 19.92 & 0.45 & 7200 \\
 \hline
 \end{tabular}
 \end{table}
