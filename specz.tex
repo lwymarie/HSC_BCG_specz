@@ -108,8 +108,8 @@ $\log\,(M_*/M_\odot)>11.7$ and $z<0.4$. The majority of galaxies in our sample h
 either the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which
 we are lacking spectroscopic redshifts. The typical photometric redshift precision $\sigma(z)\approx0.05$ corresponds
 to a co-moving distance of $\approx120\,h^{-1}\,{\rm Mpc}$ at $z=0.4$, which is much larger than the typical size of a
-dark matter halo $\sim1\,{\rm Mpc}$. Hence photometric redshifts are prone to projection effects, and are insufficient
-for distinguishing between galaxies in the same halo versus those in more distance halos. On the other hand, the
+dark matter halo ($R_{\rm halo}\sim1\,{\rm Mpc}$). Hence photometric redshifts are prone to projection effects, and are insufficient
+for distinguishing between galaxies in the same halo versus those in more distant halos. On the other hand, the
 minimum resolvable distance is limited by the finger-of-god effect. The typical halos of our study have velocity
 dispersions $\sigma(v)\approx600\,{\rm km\,s^{-1}}$ and this sets our desired redshift precision.
 
@@ -145,15 +145,15 @@ We overplot the best--fit model based on the SDSS spectra (Red) that have
 slightly higher signal--to--noise ratio. 
 With the current signal-to-noise $\approx5$, many spectral features (e.g. 
 the 4000\,\AA-break; the Ca~II H+K doublet) can be identified and used for 
-measuring redshift.}
+measuring redshifts.}
+\label{spectrum}
 \end{figure}
 
 \sidecaptionvpos{figure}{c}
 \begin{SCfigure}[10][hbt]
 \includegraphics[width=4in]{s16a_massive_photoz_pair_gama_kast_targets.pdf}
 \caption{
-Distribution of our 2018A targeted galaxies, as well as the parent HSC survey sample, in SDSS {\it r}-magnitude and
-redshift.}
+Distribution of our 2018A targets, as well as the parent HSC survey sample, as a function of redshift and {\it r}-magnitude}
 \end{SCfigure}
 
 \begin{figure}[hbt]
@@ -168,16 +168,13 @@ May 1. March and April will be optimal time for our program.}
 \section{Targets and Exposures}
 
 With Kast observations, we will eventually acquire spectroscopic redshifts of 87 galaxies in six different fields in
-the sky. We set the lower limit to redshift at $z=0.35$, below which many massive galaxies start to saturate the
-camera. To ensure that all $0.35 < z < 0.40$ objects are covered, we target objects with $0.30<z_{\rm photo}<0.45$. We
-will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate the Kast spectra with galaxy
+the sky. Our sample is selected from our HSC catalogs with  $0.30<z_{\rm photo}<0.45$ (our redshift range of interest). We
+will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate Kast spectra with galaxy
 templates. We were granted director discretionary time on 2017 July 14 for a trial run. We observed four galaxies that
-have spectroscopic redshifts already determined in SDSS, to determine the signal-to-noise required for deriving
-reliable spectroscopic redshifts, and the brightness limit for Kast observations. We observed four galaxies of SDSS
-magnitude $r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, each with exposure time $3600\textrm{---}5400$\,s. We performed
+have spectroscopic redshifts already determined from SDSS, to determine the signal-to-noise required for deriving
+reliable spectroscopic redshifts, and the brightness limit for Kast observations. We observed four galaxies with $r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, each with exposure time $3600\textrm{---}5400$\,s. We performed
 preliminary data reduction using PYPIT. Figure 1 shows our Kast spectra of two of the observed galaxies (smoothed for
-clarity), the SDSS spectra, and the SDSS models. While proper fluxing and cosmic ray rejection are still in progress,
-we demonstrate that signal-to-noise $>5$ is required for spectroscopic redshifts. In turn, this implies our program is
+clarity), the SDSS spectra, and the SDSS models. While proper fluxing and cosmic ray rejection are still in progress, our preliminary analysis shows that our coadd spectra have  $S/N>5$ which is sufficient in order to measure a redshift. Key features, such at the CaII H\& K lines, and the H$\delta$ line can be seen in Figure \ref{spectrum} - fitting these absorption features will provide us with redshifts. Figure \ref{spectrum} shows that our program is
 feasible for galaxies with $r\lesssim20$.
 
 Among our six targeted fields, three fields are observable in 2018A, namely GAMA-09, GAMA-12, and GAMA-15. We will use
@@ -193,14 +190,14 @@ interrupts, we request 17 nights. Figure 3 shows the visibility curves of the th
 semester. We request time allocation in March and April when more of our targets are within the telescope pointing
 limit.
 
-We will setup to resolve the 4000\,\AA\ break and the Ca II H and K lines, while simultaneously cover a sufficiently
+Our set up will resolve the 4000\,\AA\ break and the Ca II H and K lines, while simultaneously covering a sufficiently
 broad wavelength range for full SED fitting (Figure 1). To this end, we will use the 600/5000 grating on the red side.
-At 5000\,\AA\, a precision of $600\,{\rm km\,s^{-1}}$ corresponds to 15\,\AA, which will be many resolution elements.
+At 5000\,\AA\, a precision of $600\,{\rm km\,s^{-1}}$ corresponds to 15\,\AA, which is many resolution elements.
 
 Table 1 lists the galaxies in the three targeted GAMA fields to be observed in 2018A. We will observe additional
 targets in the HSC footprint if we are granted additional observing time.
 
-In poor observing conditions we will increase exposure time and give preference to bright targets. 
+In poor observing conditions we will increase the exposure time and give preference to brighter targets. 
 
 % ------------------------------------------------------------------------------- %
 %% Target list by Song Huang 
