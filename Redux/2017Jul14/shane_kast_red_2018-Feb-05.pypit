@@ -1,0 +1,41 @@
+# This is a comment line
+
+# Change the default settings
+run ncpus 1
+output overwrite True
+run spectrograph shane_kast_red
+output sorted shane_kast_red_2018-Feb-05
+run calcheck False
+run setup False
+
+# Reduce
+
+# Spect
+spect read
+ pixelflat number 11
+ arc number 2
+ pinhole number 0
+ trace number 11
+ bias number 11
+ standard number 1
+ set standard r70.fits
+ set science r70.fits
+spect end
+
+# Read in the data
+data read
+ /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/*.fits*
+ skip r71.fits
+ skip r72.fits
+ skip r73.fits
+ skip r74.fits
+ skip r75.fits
+ skip r76.fits
+ skip r77.fits
+ skip r78.fits
+ skip r79.fits
+ skip r80.fits
+ skip r81.fits
+ skip r82.fits
+data end
+

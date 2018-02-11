@@ -1,0 +1,542 @@
+------------------------------------------------------
+
+PYPIT was last updated 23May2017
+This log was generated with version 0.8.0.dev0 of PYPIT
+
+You are using scipy version=1.0.0
+You are using numpy version=1.13.3
+You are using astropy version=2.0.2
+
+------------------------------------------------------
+
+[INFO]    :: Loading the input file
+[WARNING] :: Skipping file r71.fits
+[WARNING] :: Skipping file r72.fits
+[WARNING] :: Skipping file r73.fits
+[WARNING] :: Skipping file r74.fits
+[WARNING] :: Skipping file r75.fits
+[WARNING] :: Skipping file r76.fits
+[WARNING] :: Skipping file r77.fits
+[WARNING] :: Skipping file r78.fits
+[WARNING] :: Skipping file r79.fits
+[WARNING] :: Skipping file r80.fits
+[WARNING] :: Skipping file r81.fits
+[WARNING] :: Skipping file r82.fits
+[INFO]    :: Found 25 raw data frames
+[INFO]    :: Input file loaded successfully
+[INFO]    :: Reducing data from the shane_kast_red spectrograph
+[INFO]    :: Loading default settings
+[INFO]    :: Loading base settings from settings.baseargflag
+[INFO]    :: Setting 3 CPUs
+[INFO]    :: Loading default settings
+[INFO]    :: Setting 1 CPUs
+[INFO]    :: Loading default settings
+[INFO]    :: Loading base settings from settings.basespect
+[INFO]    :: Loading default settings
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r10.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r10.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r11.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r11.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r12.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r12.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r13.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r13.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r14.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r14.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r15.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r15.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r16.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r16.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r17.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r17.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r18.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r18.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r19.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r19.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r20.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r20.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r21.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r21.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r22.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r22.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r25.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r25.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r26.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r26.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r27.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r27.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r28.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r28.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r29.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r29.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r30.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r30.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r31.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r31.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r32.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r32.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r33.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r33.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r34.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r34.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r35.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r35.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r70.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r70.fits
+[INFO]    :: Checking spectrograph settings for required header information
+[INFO]    :: Headers loaded for 25 files successfully
+[INFO]    :: Data reduction will be performed using PYPIT-ARMLSD
+[BUG]     :: Files and folders should not be deleted -- there should be an option to overwrite files automatically if they already exist, or choose to rename them if necessary[BUG]     :: There appears to be a bug with the assignment of arc frames when only one science frame is supplied[INFO]    :: Sorting files
+[INFO]    :: Making forced file identification changes
+[INFO]    :: Finalising frame sorting, and removing duplicates
+[INFO]    :: Found 0 pinhole frames
+[INFO]    :: Found 11 trace frames
+[INFO]    :: Found 0 unknown frames
+[INFO]    :: Found 1 standard frame
+[INFO]    :: Found 0 dark frames
+[INFO]    :: Found 2 arc frames
+[INFO]    :: Found 11 bias frames
+[INFO]    :: Found 1 science frame
+[INFO]    :: Found 11 pixelflat frames
+[INFO]    :: Sorting completed successfully
+[INFO]    :: Preparing to write out the data sorting details
+[INFO]    :: Matching calibrations to Science frames
+[INFO]    :: Matching calibrations to BD+33: r70.fits
+[INFO]    ::   Found 2 arc frames for BD+33 (2 are required)
+[INFO]    ::   Found 1 standard frame for BD+33 (1 is required)
+[INFO]    ::   Found 11 bias frames for BD+33 (11 are required)
+[INFO]    ::   Dark frames not required
+[INFO]    ::   Found 11 pixelflat frames for BD+33 (11 are required)
+[INFO]    :: No pinhole frames are required
+[INFO]    ::   Found 11 trace frames for BD+33 (11 are required)
+[INFO]    :: Science frames successfully matched to calibration frames
+[INFO]    :: Creating Science directory
+[INFO]    :: The following directory already exists:
+             /Users/lwymarie/Documents/HSC_BCG_specz/Redux/2017Jul14/Science
+[INFO]    :: Creating Object directories
+[INFO]    :: Creating Master Calibrations directory
+[INFO]    :: Creating QA directory
+[WARNING] :: Pre-existing QA plots will be overwritten
+[INFO]    :: Reducing file r70.fits, target BD+33
+[INFO]    :: Preparing a master bias frame
+[INFO]    :: Loading individual bias frames
+[INFO]    :: Loaded 11 bias frames successfully
+[INFO]    :: Combining 11 bias frames
+[INFO]    :: Finding saturated and non-linear pixels
+[INFO]    :: Rejecting cosmic rays
+[INFO]    :: Not rejecting any low/high pixels
+[INFO]    :: Rejecting deviant pixels
+[INFO]    :: Combining frames with a mean operation
+[INFO]    :: Replacing completely masked pixels with the median value of the input frames
+[INFO]    :: 11 bias frames combined successfully!
+[INFO]    :: Saving master bias frame as:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Master bias frame saved successfully:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Not preparing a bad pixel mask
+[INFO]    :: Preparing a master arc frame
+[INFO]    :: Loading individual arc frames
+[INFO]    :: Loaded 2 arc frames successfully
+[INFO]    :: Combining 2 arc frames
+[INFO]    :: Finding saturated and non-linear pixels
+[INFO]    :: Not rejecting cosmic rays
+[INFO]    :: Not rejecting any low/high pixels
+[INFO]    :: Rejecting deviant pixels
+[INFO]    :: Combining frames with a weightmean operation
+[INFO]    :: Replacing completely masked pixels with the maxnonsat value of the input frames
+[INFO]    :: 2 arc frames combined successfully!
+[INFO]    :: Saving master arc frame as:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: Master arc frame saved successfully:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: Preparing a master trace frame with trace
+[INFO]    :: Loading individual trace frames
+[INFO]    :: Loaded 11 trace frames successfully
+[INFO]    :: Combining 11 trace frames
+[INFO]    :: Finding saturated and non-linear pixels
+[INFO]    :: Rejecting cosmic rays
+[INFO]    :: Not rejecting any low/high pixels
+[INFO]    :: Rejecting deviant pixels
+[INFO]    :: Combining frames with a weightmean operation
+[INFO]    :: Replacing completely masked pixels with the maxnonsat value of the input frames
+[INFO]    :: 11 trace frames combined successfully!
+[INFO]    :: Deriving physical pixel locations on the detector
+[INFO]    :: Pixel gap in the dispersion direction = 0.000
+[INFO]    :: Pixel size in the dispersion direction = 1.000
+[INFO]    :: Pixel gap in the spatial direction = 0.000
+[INFO]    :: Pixel size in the spatial direction = 1.000
+[INFO]    :: Saving pixel locations
+[INFO]    :: Preparing trace frame for slit detection
+[INFO]    :: Detecting slit edges
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Matching slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Assigning slit edge traces
+[INFO]    :: Assigning left slit edges
+[INFO]    :: Assigning right slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Ignoring any slit that spans < 0.01x2725 pixels on the detector
+[INFO]    :: Fitting left slit traces
+[INFO]    :: Fitting right slit traces
+[INFO]    :: Only one slit was identified. Should be a longslit.
+[INFO]    :: Converting physical trace locations to nearest pixel
+[INFO]    :: Identifying the pixels belonging to each slit
+[INFO]    :: Saving master trace frame as:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Master trace frame saved successfully:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Updating master pixelflat frame for science target 1/1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[INFO]    :: Loading line list using NeI,ArI,HgI,CdI lamps
+[INFO]    :: Rejecting select NeI lines
+[INFO]    :: Rejecting select ArI lines
+[INFO]    :: Rejecting select HgI lines
+[INFO]    :: Rejecting select CdI lines
+[INFO]    :: Cutting down line list by wvmnx: 5000,12000
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of each slit
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Modelling arc line tilts with 26 arc lines
+[INFO]    :: Completed spectral tilt tracing
+[INFO]    :: Performing a PCA on the tilts
+               Reduced chi-squared = 5.836865E-11
+[INFO]    :: Performing a spline fit to the tilts
+[INFO]    :: Preparing arc tilt QA data
+[INFO]    :: Plotting arc tilt QA
+[INFO]    :: Saving master tilts frame as:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: Master tilts frame saved successfully:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: An identical master pixelflat frame already exists
+[INFO]    :: Normalizing the pixel flat
+[INFO]    :: Deriving the blaze function of slit 1
+[INFO]    :: Saving master normpixelflat frame as:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Master normpixelflat frame saved successfully:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Saving master slit profile frame as:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Master slit profile frame saved successfully:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Saving blaze function QA
+[INFO]    :: Preparing a master wave frame
+[INFO]    :: Saving master wave frame as:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: Master wave frame saved successfully:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: All calibration frames have been prepared
+[INFO]    :: Loading science frame
+[INFO]    :: Loading individual science frames
+[INFO]    :: Loaded 1 science frame successfully
+[INFO]    :: Processing science frame
+[INFO]    :: Masking bad pixels
+[INFO]    :: Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: Flat fielding the science frame
+[INFO]    :: Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: Convolving image with Laplacian kernel
+[INFO]    :: Creating noise model
+[INFO]    :: Calculating Laplacian signal to noise ratio
+[INFO]    :: Selecting candidate cosmic rays
+[INFO]    ::  8317 candidate pixels
+[INFO]    :: Building fine structure image
+[INFO]    :: Removing suspected compact bright objects
+[INFO]    ::  3232 remaining candidate pixels
+[INFO]    :: Finding neighboring pixels affected by cosmic rays
+[INFO]    ::  6881 pixels detected as cosmics
+[INFO]    :: Iteration 1 -- 6881 pixels identified as cosmic rays (6881 new)
+[INFO]    :: Growing cosmic ray mask by 1 pixel
+[INFO]    :: First estimate of the sky background
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[INFO]    :: Finalizing the sky background image
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Performing final object trace
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[WARNING] :: Assuming 1x1 binning for your detector
+[INFO]    :: Performing boxcar extraction
+[INFO]    :: Performing boxcar extraction of object 1/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 2/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Attempting optimal extraction with model profile
+[INFO]    :: Deriving spatial profile of object 1/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Performing optimal extraction of object 1/2 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/2 in slit 1/1
+[INFO]    :: Deriving spatial profile of object 1/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Preparing QA for spatial object profiles
+[INFO]    :: Performing optimal extraction of object 1/2 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/2 in slit 1/1
+[INFO]    :: Using paranal_sky.fits file for Sky spectrum
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=1197.45
+[INFO]    :: Flexure correction of -1.90353 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=977.885
+[INFO]    :: Flexure correction of -1.56436 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Performing a heliocentric correction
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Processing standard star
+[INFO]    :: Assuming one star per detector mosaic
+[INFO]    :: Waited until last detector to process
+[INFO]    :: Preparing the standard
+[WARNING] :: Taking only the first standard frame for now
+[INFO]    :: Loading individual standard frames
+[INFO]    :: Loaded 1 standard frame successfully
+[INFO]    :: Masking bad pixels
+[INFO]    :: Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: Flat fielding the science frame
+[INFO]    :: Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: Convolving image with Laplacian kernel
+[INFO]    :: Creating noise model
+[INFO]    :: Calculating Laplacian signal to noise ratio
+[INFO]    :: Selecting candidate cosmic rays
+[INFO]    ::  8317 candidate pixels
+[INFO]    :: Building fine structure image
+[INFO]    :: Removing suspected compact bright objects
+[INFO]    ::  3232 remaining candidate pixels
+[INFO]    :: Finding neighboring pixels affected by cosmic rays
+[INFO]    ::  6881 pixels detected as cosmics
+[INFO]    :: Iteration 1 -- 6881 pixels identified as cosmic rays (6881 new)
+[INFO]    :: Growing cosmic ray mask by 1 pixel
+[INFO]    :: First estimate of the sky background
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[INFO]    :: Finalizing the sky background image
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Performing final object trace
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[WARNING] :: Assuming 1x1 binning for your detector
+[INFO]    :: Performing boxcar extraction
+[INFO]    :: Performing boxcar extraction of object 1/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 2/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing a heliocentric correction
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Using standard star BD+332642
+[INFO]    :: Loading standard star file: /Users/lwymarie/python/PYPIT/pypit//data/standards/calspec/bd_33d2642_fos_003.fits.gz
+[INFO]    :: Fluxes are flambda, normalized to 1e-17
+[INFO]    :: Masking edges
+[WARNING] :: Should pull resolution from arc line analysis
+[INFO]    :: Masking Balmer
+[INFO]    :: Masking Telluric
+[INFO]    :: Masking Below the atmospheric cutoff
+[INFO]    :: Difference between fits is 5.97546e-05
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
+[INFO]    :: Fluxing with BD+332642
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[INFO]    :: Data reduction complete
+[INFO]    :: Generating QA HTML
+[INFO]    :: Wrote: QA/MF_A.html
+[INFO]    :: Wrote: QA/BD+33_KASTr_2017Jul15T043425.69.html
+[INFO]    :: Wrote: QA/J1617+4232_KASTr_2017Jul15T051915.11.html
+[INFO]    :: Wrote: QA/J1617+4232_KASTr_2017Jul15T054948.90.html
+[INFO]    :: Wrote: QA/J1617+4232_KASTr_2017Jul15T062022.66.html
+[INFO]    :: Wrote: QA/J1620+4227_KASTr_2017Jul15T065712.93.html
+[INFO]    :: Wrote: QA/J1620+4227_KASTr_2017Jul15T072746.69.html
+[INFO]    :: Wrote: QA/J1620+4227_KASTr_2017Jul15T075820.48.html
+[INFO]    :: Wrote: QA/J2223+0137_KASTr_2017Jul15T082647.63.html
+[INFO]    :: Wrote: QA/J2223+0137_KASTr_2017Jul15T084721.39.html
+[INFO]    :: Wrote: QA/J2223+0137_KASTr_2017Jul15T090755.13.html
+[INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T095232.11.html
+[INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T102305.96.html
+[INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T105339.76.html
+[INFO]    :: Data reduction execution time: 3m 45.96s

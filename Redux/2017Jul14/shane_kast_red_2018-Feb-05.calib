@@ -1,0 +1,17 @@
+A:
+  --:
+    dichroic: d46
+    disperser: {angle: 8900, name: 600/5000}
+    slit: {decker: 0.5 arcsec, slitlen: None, slitwid: 3988}
+  '01': {binning: None, det: 1, namp: 2}
+  aa:
+    arcs: [r10.fits, r11.fits]
+    bias: [r12.fits, r13.fits, r14.fits, r15.fits, r16.fits, r17.fits, r18.fits, r19.fits,
+      r20.fits, r21.fits, r22.fits]
+    cent: [r25.fits, r26.fits, r27.fits, r28.fits, r29.fits, r30.fits, r31.fits, r32.fits,
+      r33.fits, r34.fits, r35.fits]
+    flat: [r25.fits, r26.fits, r27.fits, r28.fits, r29.fits, r30.fits, r31.fits, r32.fits,
+      r33.fits, r34.fits, r35.fits]
+    sci: [r70.fits]
+    trace: [r25.fits, r26.fits, r27.fits, r28.fits, r29.fits, r30.fits, r31.fits,
+      r32.fits, r33.fits, r34.fits, r35.fits]

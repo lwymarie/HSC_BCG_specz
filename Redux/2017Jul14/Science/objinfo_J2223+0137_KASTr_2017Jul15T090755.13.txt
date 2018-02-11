@@ -1,0 +1,2 @@
+| slit |                 name | box_width | opt_fwhm |  s2n |
+|    1 | O504-S3160-D01-I0033 |      8.60 |    1.386 | 3.10 |

@@ -1,0 +1,5 @@
+'filenames': ['spec1d_J1617+4232_KASTr_2017Jul15T051915.11.fits','spec1d_J1617+4232_KASTr_2017Jul15T054948.90.fits','spec1d_J1617+4232_KASTr_2017Jul15T062022.66.fits']
+'a':
+    'object': ['O496-S3160-D01-I0025','O501-S3160-D01-I0026','O506-S3160-D01-I0027']
+    'outfile': 'J1617+4232_opt.hdf5'
+    'extract': 'opt'

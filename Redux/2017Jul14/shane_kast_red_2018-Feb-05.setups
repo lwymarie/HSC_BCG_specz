@@ -1,0 +1,6 @@
+A:
+  --:
+    dichroic: d46
+    disperser: {angle: 8900, name: 600/5000}
+    slit: {decker: 0.5 arcsec, slitlen: None, slitwid: 3988}
+  '01': {binning: None, det: 1, namp: 2}
