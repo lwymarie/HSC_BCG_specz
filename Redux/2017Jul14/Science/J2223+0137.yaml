@@ -1,5 +1,5 @@
 'filenames': ['spec1d_J2223+0137_KASTr_2017Jul15T082647.63.fits','spec1d_J2223+0137_KASTr_2017Jul15T084721.39.fits','spec1d_J2223+0137_KASTr_2017Jul15T090755.13.fits']
 'a':
-    'object': ['O501-S3160-D01-I0031','O502-S3160-D01-I0032','O502-S3160-D01-I0032']
-    'outfile': 'J2223+0137.hdf5'
+    'object': ['O504-S3160-D01-I0027','O502-S3160-D01-I0026','O501-S3160-D01-I0025']
+    'outfile': 'J2223+0137.fits'
 

@@ -9,6 +9,7 @@ run calcheck False
 run setup False
 
 # Reduce
+reduce skysub bspline everyn 60
 
 # Spect
 spect read
@@ -31,9 +32,9 @@ data read
  skip r74.fits
  skip r75.fits
  skip r76.fits
- skip r77.fits
- skip r78.fits
- skip r79.fits
+# skip r77.fits
+# skip r78.fits
+# skip r79.fits
  skip r80.fits
  skip r81.fits
  skip r82.fits

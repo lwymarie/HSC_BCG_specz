@@ -16,13 +16,10 @@ You are using astropy version=2.0.2
 [WARNING] :: Skipping file r74.fits
 [WARNING] :: Skipping file r75.fits
 [WARNING] :: Skipping file r76.fits
-[WARNING] :: Skipping file r77.fits
-[WARNING] :: Skipping file r78.fits
-[WARNING] :: Skipping file r79.fits
 [WARNING] :: Skipping file r80.fits
 [WARNING] :: Skipping file r81.fits
 [WARNING] :: Skipping file r82.fits
-[INFO]    :: Found 25 raw data frames
+[INFO]    :: Found 28 raw data frames
 [INFO]    :: Input file loaded successfully
 [INFO]    :: Reducing data from the shane_kast_red spectrograph
 [INFO]    :: Loading default settings
@@ -133,8 +130,20 @@ You are using astropy version=2.0.2
              /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r70.fits
 [INFO]    :: Successfully loaded headers for file:
              /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r70.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r77.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r77.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r78.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r78.fits
+[WARNING] :: UTC is not listed as a header keyword in file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r79.fits
+[INFO]    :: Successfully loaded headers for file:
+             /Users/lwymarie/Documents/HSC_BCG_specz/RawData/2017Jul14/r79.fits
 [INFO]    :: Checking spectrograph settings for required header information
-[INFO]    :: Headers loaded for 25 files successfully
+[INFO]    :: Headers loaded for 28 files successfully
 [INFO]    :: Data reduction will be performed using PYPIT-ARMLSD
 [BUG]     :: Files and folders should not be deleted -- there should be an option to overwrite files automatically if they already exist, or choose to rename them if necessary[BUG]     :: There appears to be a bug with the assignment of arc frames when only one science frame is supplied[INFO]    :: Sorting files
 [INFO]    :: Making forced file identification changes
@@ -146,7 +155,7 @@ You are using astropy version=2.0.2
 [INFO]    :: Found 0 dark frames
 [INFO]    :: Found 2 arc frames
 [INFO]    :: Found 11 bias frames
-[INFO]    :: Found 1 science frame
+[INFO]    :: Found 4 science frames
 [INFO]    :: Found 11 pixelflat frames
 [INFO]    :: Sorting completed successfully
 [INFO]    :: Preparing to write out the data sorting details
@@ -159,6 +168,30 @@ You are using astropy version=2.0.2
 [INFO]    ::   Found 11 pixelflat frames for BD+33 (11 are required)
 [INFO]    :: No pinhole frames are required
 [INFO]    ::   Found 11 trace frames for BD+33 (11 are required)
+[INFO]    :: Matching calibrations to J2223+0137: r77.fits
+[INFO]    ::   Found 2 arc frames for J2223+0137 (2 are required)
+[INFO]    ::   Found 1 standard frame for J2223+0137 (1 is required)
+[INFO]    ::   Found 11 bias frames for J2223+0137 (11 are required)
+[INFO]    ::   Dark frames not required
+[INFO]    ::   Found 11 pixelflat frames for J2223+0137 (11 are required)
+[INFO]    :: No pinhole frames are required
+[INFO]    ::   Found 11 trace frames for J2223+0137 (11 are required)
+[INFO]    :: Matching calibrations to J2223+0137: r78.fits
+[INFO]    ::   Found 2 arc frames for J2223+0137 (2 are required)
+[INFO]    ::   Found 1 standard frame for J2223+0137 (1 is required)
+[INFO]    ::   Found 11 bias frames for J2223+0137 (11 are required)
+[INFO]    ::   Dark frames not required
+[INFO]    ::   Found 11 pixelflat frames for J2223+0137 (11 are required)
+[INFO]    :: No pinhole frames are required
+[INFO]    ::   Found 11 trace frames for J2223+0137 (11 are required)
+[INFO]    :: Matching calibrations to J2223+0137: r79.fits
+[INFO]    ::   Found 2 arc frames for J2223+0137 (2 are required)
+[INFO]    ::   Found 1 standard frame for J2223+0137 (1 is required)
+[INFO]    ::   Found 11 bias frames for J2223+0137 (11 are required)
+[INFO]    ::   Dark frames not required
+[INFO]    ::   Found 11 pixelflat frames for J2223+0137 (11 are required)
+[INFO]    :: No pinhole frames are required
+[INFO]    ::   Found 11 trace frames for J2223+0137 (11 are required)
 [INFO]    :: Science frames successfully matched to calibration frames
 [INFO]    :: Creating Science directory
 [INFO]    :: The following directory already exists:
@@ -245,7 +278,13 @@ You are using astropy version=2.0.2
              MF_shane_kast_red/MasterTrace_A_01_aa.fits
 [INFO]    :: Master trace frame saved successfully:
              MF_shane_kast_red/MasterTrace_A_01_aa.fits
-[INFO]    :: Updating master pixelflat frame for science target 1/1
+[INFO]    :: Updating master trace frame for science target 2/4
+[INFO]    :: Updating master trace frame for science target 3/4
+[INFO]    :: Updating master trace frame for science target 4/4
+[INFO]    :: Updating master pixelflat frame for science target 1/4
+[INFO]    :: Updating master pixelflat frame for science target 2/4
+[INFO]    :: Updating master pixelflat frame for science target 3/4
+[INFO]    :: Updating master pixelflat frame for science target 4/4
 [WARNING] :: Unable to parse input binning: None
 [WARNING] :: Assuming unbinned, i.e.  1x1
 [INFO]    :: Loading line list using NeI,ArI,HgI,CdI lamps
@@ -387,12 +426,12 @@ You are using astropy version=2.0.2
 [INFO]    :: Detecting lines
 [INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
 [INFO]    :: Detecting the strongest, nonsaturated lines
-[INFO]    :: Resolution of Archive=34127.6 and Observation=1197.45
-[INFO]    :: Flexure correction of -1.90353 pixels
+[INFO]    :: Resolution of Archive=34127.6 and Observation=1232.91
+[INFO]    :: Flexure correction of -1.88685 pixels
 [INFO]    :: Applying flexure correction to boxcar extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying flexure correction to optimal extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [WARNING] :: If we use Paranal, cut down on wavelength early on
 [INFO]    :: Detecting lines
 [INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
@@ -400,21 +439,21 @@ You are using astropy version=2.0.2
 [INFO]    :: Detecting lines
 [INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
 [INFO]    :: Detecting the strongest, nonsaturated lines
-[INFO]    :: Resolution of Archive=34127.6 and Observation=977.885
-[INFO]    :: Flexure correction of -1.56436 pixels
+[INFO]    :: Resolution of Archive=34127.6 and Observation=1184.11
+[INFO]    :: Flexure correction of -1.64985 pixels
 [INFO]    :: Applying flexure correction to boxcar extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying flexure correction to optimal extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Performing a heliocentric correction
 [INFO]    :: Applying heliocentric correction to boxcar extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to optimal extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to boxcar extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to optimal extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Processing standard star
 [INFO]    :: Assuming one star per detector mosaic
 [INFO]    :: Waited until last detector to process
@@ -483,13 +522,13 @@ You are using astropy version=2.0.2
 [INFO]    ::    Summing variance array
 [INFO]    :: Performing a heliocentric correction
 [INFO]    :: Applying heliocentric correction to boxcar extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to optimal extraction for object:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to boxcar extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Applying heliocentric correction to optimal extraction for object:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Using mthamextinct.dat for extinction corrections.
 [INFO]    :: Using standard star BD+332642
 [INFO]    :: Loading standard star file: /Users/lwymarie/python/PYPIT/pypit//data/standards/calspec/bd_33d2642_fos_003.fits.gz
@@ -499,22 +538,736 @@ You are using astropy version=2.0.2
 [INFO]    :: Masking Balmer
 [INFO]    :: Masking Telluric
 [INFO]    :: Masking Below the atmospheric cutoff
-[INFO]    :: Difference between fits is 5.97546e-05
+[INFO]    :: Difference between fits is 5.89252e-05
 [INFO]    :: Using mthamextinct.dat for extinction corrections.
 [INFO]    :: Fluxing boxcar extraction for:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
 [INFO]    :: Fluxing boxcar extraction for:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=standard>
 [INFO]    :: Fluxing with BD+332642
 [INFO]    :: Using mthamextinct.dat for extinction corrections.
 [INFO]    :: Fluxing boxcar extraction for:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Fluxing optimal extraction for:
-             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.49235 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O492-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.492318 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Fluxing boxcar extraction for:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
 [INFO]    :: Fluxing optimal extraction for:
-             <SpecObjExp: O345-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345217 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+             <SpecObjExp: O346-S3160-D01-I0024 == Setup S3721-D46-G6005000-T8901-B11 Object at 0.345591 in Slit at 0.315974 with det=01, scidx=24 and objtype=science>
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[INFO]    :: Reducing file r77.fits, target J2223+0137
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master bias frame loaded successfully:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Not preparing a bad pixel mask
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master arc frame loaded successfully:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: An identical master trace frame already exists
+[INFO]    :: Deriving physical pixel locations on the detector
+[INFO]    :: Pixel gap in the dispersion direction = 0.000
+[INFO]    :: Pixel size in the dispersion direction = 1.000
+[INFO]    :: Pixel gap in the spatial direction = 0.000
+[INFO]    :: Pixel size in the spatial direction = 1.000
+[INFO]    :: Saving pixel locations
+[INFO]    :: Preparing trace frame for slit detection
+[INFO]    :: Detecting slit edges
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Matching slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Assigning slit edge traces
+[INFO]    :: Assigning left slit edges
+[INFO]    :: Assigning right slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Ignoring any slit that spans < 0.01x2725 pixels on the detector
+[INFO]    :: Fitting left slit traces
+[INFO]    :: Fitting right slit traces
+[INFO]    :: Only one slit was identified. Should be a longslit.
+[INFO]    :: Converting physical trace locations to nearest pixel
+[INFO]    :: Identifying the pixels belonging to each slit
+[INFO]    :: Saving master trace frame as:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Master trace frame saved successfully:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Loading Master wv_calib frame:
+             MF_shane_kast_red/MasterWaveCalib_A_01_aa.json
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master tilts frame loaded successfully:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: An identical master pixelflat frame already exists
+[INFO]    :: Normalizing the pixel flat
+[INFO]    :: Deriving the blaze function of slit 1
+[INFO]    :: Saving master normpixelflat frame as:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Master normpixelflat frame saved successfully:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Saving master slit profile frame as:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Master slit profile frame saved successfully:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Saving blaze function QA
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master wave frame loaded successfully:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: All calibration frames have been prepared
+[INFO]    :: Loading science frame
+[INFO]    :: Loading individual science frames
+[INFO]    :: Loaded 1 science frame successfully
+[INFO]    :: Processing science frame
+[INFO]    :: Masking bad pixels
+[INFO]    :: Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: Flat fielding the science frame
+[INFO]    :: Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: Convolving image with Laplacian kernel
+[INFO]    :: Creating noise model
+[INFO]    :: Calculating Laplacian signal to noise ratio
+[INFO]    :: Selecting candidate cosmic rays
+[INFO]    ::  9862 candidate pixels
+[INFO]    :: Masking saturated pixels
+[INFO]    ::  9851 candidate pixels not part of saturated stars
+[INFO]    :: Building fine structure image
+[INFO]    :: Removing suspected compact bright objects
+[INFO]    ::  3181 remaining candidate pixels
+[INFO]    :: Finding neighboring pixels affected by cosmic rays
+[INFO]    :: Masking saturated stars
+[INFO]    ::  7060 pixels detected as cosmics
+[INFO]    :: Iteration 1 -- 7060 pixels identified as cosmic rays (7060 new)
+[INFO]    :: Growing cosmic ray mask by 1 pixel
+[INFO]    :: First estimate of the sky background
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 3 objects
+[INFO]    :: Tracing 3 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[INFO]    :: Finalizing the sky background image
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Performing final object trace
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 3 objects
+[INFO]    :: Tracing 3 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[WARNING] :: Assuming 1x1 binning for your detector
+[INFO]    :: Performing boxcar extraction
+[INFO]    :: Performing boxcar extraction of object 1/3 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 2/3 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 3/3 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Attempting optimal extraction with model profile
+[INFO]    :: Deriving spatial profile of object 1/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 3/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Performing optimal extraction of object 1/3 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/3 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 3/3 in slit 1/1
+[INFO]    :: Deriving spatial profile of object 1/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 3/3 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Preparing QA for spatial object profiles
+[INFO]    :: Performing optimal extraction of object 1/3 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/3 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 3/3 in slit 1/1
+[INFO]    :: Using paranal_sky.fits file for Sky spectrum
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=763.976
+[INFO]    :: Flexure correction of -4.40328 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=1007.9
+[INFO]    :: Flexure correction of -4.61734 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=1008.84
+[INFO]    :: Flexure correction of -4.61517 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Performing a heliocentric correction
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Processing standard star
+[INFO]    :: Assuming one star per detector mosaic
+[INFO]    :: Waited until last detector to process
+[INFO]    :: Fluxing with BD+332642
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O502-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.501588 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O337-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.337156 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O257-S3160-D01-I0025 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.256762 in Slit at 0.315974 with det=01, scidx=25 and objtype=science>
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[INFO]    :: Reducing file r78.fits, target J2223+0137
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master bias frame loaded successfully:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Not preparing a bad pixel mask
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master arc frame loaded successfully:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: An identical master trace frame already exists
+[INFO]    :: Deriving physical pixel locations on the detector
+[INFO]    :: Pixel gap in the dispersion direction = 0.000
+[INFO]    :: Pixel size in the dispersion direction = 1.000
+[INFO]    :: Pixel gap in the spatial direction = 0.000
+[INFO]    :: Pixel size in the spatial direction = 1.000
+[INFO]    :: Saving pixel locations
+[INFO]    :: Preparing trace frame for slit detection
+[INFO]    :: Detecting slit edges
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Matching slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Assigning slit edge traces
+[INFO]    :: Assigning left slit edges
+[INFO]    :: Assigning right slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Ignoring any slit that spans < 0.01x2725 pixels on the detector
+[INFO]    :: Fitting left slit traces
+[INFO]    :: Fitting right slit traces
+[INFO]    :: Only one slit was identified. Should be a longslit.
+[INFO]    :: Converting physical trace locations to nearest pixel
+[INFO]    :: Identifying the pixels belonging to each slit
+[INFO]    :: Saving master trace frame as:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Master trace frame saved successfully:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Loading Master wv_calib frame:
+             MF_shane_kast_red/MasterWaveCalib_A_01_aa.json
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master tilts frame loaded successfully:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: An identical master pixelflat frame already exists
+[INFO]    :: Normalizing the pixel flat
+[INFO]    :: Deriving the blaze function of slit 1
+[INFO]    :: Saving master normpixelflat frame as:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Master normpixelflat frame saved successfully:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Saving master slit profile frame as:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Master slit profile frame saved successfully:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Saving blaze function QA
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master wave frame loaded successfully:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: All calibration frames have been prepared
+[INFO]    :: Loading science frame
+[INFO]    :: Loading individual science frames
+[INFO]    :: Loaded 1 science frame successfully
+[INFO]    :: Processing science frame
+[INFO]    :: Masking bad pixels
+[INFO]    :: Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: Flat fielding the science frame
+[INFO]    :: Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: Convolving image with Laplacian kernel
+[INFO]    :: Creating noise model
+[INFO]    :: Calculating Laplacian signal to noise ratio
+[INFO]    :: Selecting candidate cosmic rays
+[INFO]    ::  9562 candidate pixels
+[INFO]    :: Building fine structure image
+[INFO]    :: Removing suspected compact bright objects
+[INFO]    ::  3000 remaining candidate pixels
+[INFO]    :: Finding neighboring pixels affected by cosmic rays
+[INFO]    ::  6633 pixels detected as cosmics
+[INFO]    :: Iteration 1 -- 6633 pixels identified as cosmic rays (6633 new)
+[INFO]    :: Growing cosmic ray mask by 1 pixel
+[INFO]    :: First estimate of the sky background
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 3 objects
+[INFO]    :: Tracing 3 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[INFO]    :: Finalizing the sky background image
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Performing final object trace
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 4 objects
+[INFO]    :: Tracing 4 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[WARNING] :: Assuming 1x1 binning for your detector
+[INFO]    :: Performing boxcar extraction
+[INFO]    :: Performing boxcar extraction of object 1/4 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 2/4 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 3/4 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 4/4 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Attempting optimal extraction with model profile
+[INFO]    :: Deriving spatial profile of object 1/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 3/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 4/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Performing optimal extraction of object 1/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 3/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 4/4 in slit 1/1
+[INFO]    :: Deriving spatial profile of object 1/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 3/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 4/4 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Preparing QA for spatial object profiles
+[INFO]    :: Performing optimal extraction of object 1/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 3/4 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 4/4 in slit 1/1
+[INFO]    :: Using paranal_sky.fits file for Sky spectrum
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=763.247
+[INFO]    :: Flexure correction of -4.26693 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=740.483
+[INFO]    :: Flexure correction of -4.21482 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=757.493
+[INFO]    :: Flexure correction of -4.42311 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=997.884
+[INFO]    :: Flexure correction of -4.58492 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Performing a heliocentric correction
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Processing standard star
+[INFO]    :: Assuming one star per detector mosaic
+[INFO]    :: Waited until last detector to process
+[INFO]    :: Fluxing with BD+332642
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O503-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.502655 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O328-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.327624 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O773-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.773447 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O257-S3160-D01-I0026 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.257047 in Slit at 0.315974 with det=01, scidx=26 and objtype=science>
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[WARNING] :: Unable to parse input binning: None
+[WARNING] :: Assuming unbinned, i.e.  1x1
+[INFO]    :: Reducing file r79.fits, target J2223+0137
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master bias frame loaded successfully:
+             MF_shane_kast_red/MasterBias_A_01_aa.fits
+[INFO]    :: Not preparing a bad pixel mask
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master arc frame loaded successfully:
+             MF_shane_kast_red/MasterArc_A_01_aa.fits
+[INFO]    :: An identical master trace frame already exists
+[INFO]    :: Deriving physical pixel locations on the detector
+[INFO]    :: Pixel gap in the dispersion direction = 0.000
+[INFO]    :: Pixel size in the dispersion direction = 1.000
+[INFO]    :: Pixel gap in the spatial direction = 0.000
+[INFO]    :: Pixel size in the spatial direction = 1.000
+[INFO]    :: Saving pixel locations
+[INFO]    :: Preparing trace frame for slit detection
+[INFO]    :: Detecting slit edges
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Applying bad pixel mask
+[INFO]    :: Matching slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Assigning slit edge traces
+[INFO]    :: Assigning left slit edges
+[INFO]    :: Assigning right slit edges
+[INFO]    :: 1 left edge and 1 right edge were found in the trace
+[INFO]    :: Ignoring any slit that spans < 0.01x2725 pixels on the detector
+[INFO]    :: Fitting left slit traces
+[INFO]    :: Fitting right slit traces
+[INFO]    :: Only one slit was identified. Should be a longslit.
+[INFO]    :: Converting physical trace locations to nearest pixel
+[INFO]    :: Identifying the pixels belonging to each slit
+[INFO]    :: Saving master trace frame as:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Master trace frame saved successfully:
+             MF_shane_kast_red/MasterTrace_A_01_aa.fits
+[INFO]    :: Loading Master wv_calib frame:
+             MF_shane_kast_red/MasterWaveCalib_A_01_aa.json
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master tilts frame loaded successfully:
+             MF_shane_kast_red/MasterTilts_A_01_aa.fits
+[INFO]    :: An identical master pixelflat frame already exists
+[INFO]    :: Normalizing the pixel flat
+[INFO]    :: Deriving the blaze function of slit 1
+[INFO]    :: Saving master normpixelflat frame as:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Master normpixelflat frame saved successfully:
+             MF_shane_kast_red/MasterFlatField_A_01_aa.fits
+[INFO]    :: Saving master slit profile frame as:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Writing header information
+[WARNING] :: Overwriting file:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Master slit profile frame saved successfully:
+             MF_shane_kast_red/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: Saving blaze function QA
+[INFO]    :: Loading a pre-existing master calibration frame
+[INFO]    :: Master wave frame loaded successfully:
+             MF_shane_kast_red/MasterWave_A_01_aa.fits
+[INFO]    :: All calibration frames have been prepared
+[INFO]    :: Loading science frame
+[INFO]    :: Loading individual science frames
+[INFO]    :: Loaded 1 science frame successfully
+[INFO]    :: Processing science frame
+[INFO]    :: Masking bad pixels
+[INFO]    :: Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: Flat fielding the science frame
+[INFO]    :: Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: Convolving image with Laplacian kernel
+[INFO]    :: Creating noise model
+[INFO]    :: Calculating Laplacian signal to noise ratio
+[INFO]    :: Selecting candidate cosmic rays
+[INFO]    ::  9445 candidate pixels
+[INFO]    :: Masking saturated pixels
+[INFO]    ::  9445 candidate pixels not part of saturated stars
+[INFO]    :: Building fine structure image
+[INFO]    :: Removing suspected compact bright objects
+[INFO]    ::  3057 remaining candidate pixels
+[INFO]    :: Finding neighboring pixels affected by cosmic rays
+[INFO]    :: Masking saturated stars
+[INFO]    ::  6755 pixels detected as cosmics
+[INFO]    :: Iteration 1 -- 6755 pixels identified as cosmic rays (6755 new)
+[INFO]    :: Growing cosmic ray mask by 1 pixel
+[INFO]    :: First estimate of the sky background
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[INFO]    :: Finalizing the sky background image
+[INFO]    :: Identifying pixels within each order
+[INFO]    :: Applying bad pixel mask
+[BUG]     :: Remember to include the following in a loop over order number[INFO]    :: Identifying pixels containing the science target
+[INFO]    :: Fitting sky background spectrum
+[INFO]    :: Using bspline sky subtraction
+[INFO]    :: Performing final object trace
+[INFO]    :: Rectifying science frame
+[INFO]    :: Estimating object profiles
+[INFO]    :: Identifying objects that are significantly detected
+[WARNING] :: Removed objects near the slit edges
+[INFO]    :: Found 2 objects
+[INFO]    :: Tracing 2 objects
+[INFO]    :: Performing global trace to all objects
+[INFO]    :: Constructing a trace for all objects
+[INFO]    :: Converting object traces to detector pixels
+[INFO]    :: Creating an image weighted by object pixels
+[INFO]    :: Creating an image weighted by background pixels
+[WARNING] :: Assuming 1x1 binning for your detector
+[INFO]    :: Performing boxcar extraction
+[INFO]    :: Performing boxcar extraction of object 1/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Performing boxcar extraction of object 2/2 in slit 1/1
+[INFO]    ::    Fitting the background
+[INFO]    ::    Summing object counts
+[INFO]    ::    Summing variance array
+[INFO]    :: Attempting optimal extraction with model profile
+[INFO]    :: Deriving spatial profile of object 1/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Performing optimal extraction of object 1/2 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/2 in slit 1/1
+[INFO]    :: Deriving spatial profile of object 1/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Deriving spatial profile of object 2/2 in slit 1/1
+[INFO]    :: Good S/N for profile
+[INFO]    :: Preparing QA for spatial object profiles
+[INFO]    :: Performing optimal extraction of object 1/2 in slit 1/1
+[INFO]    :: Performing optimal extraction of object 2/2 in slit 1/1
+[INFO]    :: Using paranal_sky.fits file for Sky spectrum
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=745.696
+[INFO]    :: Flexure correction of -4.19239 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[WARNING] :: If we use Paranal, cut down on wavelength early on
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Detecting lines
+[INFO]    :: Extracting an approximate arc spectrum at the centre of the chip
+[INFO]    :: Detecting the strongest, nonsaturated lines
+[INFO]    :: Resolution of Archive=34127.6 and Observation=727.338
+[INFO]    :: Flexure correction of -4.13163 pixels
+[INFO]    :: Applying flexure correction to boxcar extraction for object:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Applying flexure correction to optimal extraction for object:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Performing a heliocentric correction
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Applying heliocentric correction to boxcar extraction for object:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Applying heliocentric correction to optimal extraction for object:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Processing standard star
+[INFO]    :: Assuming one star per detector mosaic
+[INFO]    :: Waited until last detector to process
+[INFO]    :: Fluxing with BD+332642
+[INFO]    :: Using mthamextinct.dat for extinction corrections.
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O503-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.503447 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Fluxing boxcar extraction for:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
+[INFO]    :: Fluxing optimal extraction for:
+             <SpecObjExp: O326-S3160-D01-I0027 == Setup S3721-D46-G6005000-T8898-B11 Object at 0.325583 in Slit at 0.315974 with det=01, scidx=27 and objtype=science>
 [WARNING] :: Unable to parse input binning: None
 [WARNING] :: Assuming unbinned, i.e.  1x1
 [WARNING] :: Unable to parse input binning: None
@@ -539,4 +1292,4 @@ You are using astropy version=2.0.2
 [INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T095232.11.html
 [INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T102305.96.html
 [INFO]    :: Wrote: QA/J2240+0053_KASTr_2017Jul15T105339.76.html
-[INFO]    :: Data reduction execution time: 3m 45.96s
+[INFO]    :: Data reduction execution time: 8m 46.16s

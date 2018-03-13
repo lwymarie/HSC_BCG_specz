@@ -70,7 +70,7 @@ reduce overscan method savgol
 reduce overscan params [5,65]
 reduce pixel locations None
 reduce pixel size 2.5
-reduce skysub bspline everyn 20
+reduce skysub bspline everyn 60
 reduce skysub method bspline
 reduce skysub perform True
 reduce slitcen useframe trace

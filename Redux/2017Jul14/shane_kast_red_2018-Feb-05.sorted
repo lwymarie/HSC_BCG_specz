@@ -6,30 +6,33 @@ Setup A
   slit: {decker: 0.5 arcsec, slitlen: None, slitwid: 3988}
 '01': {binning: None, det: 1, namp: 2}
 #---------------------------------------------------------
-| filename |                   date |        frametype | target | exptime | dispname |     decker |
-| r10.fits | 2017-07-15T01:02:26.07 |              arc |    arc |       1 | 600/5000 | 0.5 arcsec |
-| r11.fits | 2017-07-15T01:03:29.70 |              arc |    arc |       3 | 600/5000 | 0.5 arcsec |
-| r12.fits | 2017-07-15T01:05:59.21 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r13.fits | 2017-07-15T01:06:35.25 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r14.fits | 2017-07-15T01:07:08.98 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r15.fits | 2017-07-15T01:07:42.65 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r16.fits | 2017-07-15T01:08:16.36 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r17.fits | 2017-07-15T01:08:50.15 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r18.fits | 2017-07-15T01:09:23.84 |             bias |   bias |       0 | 600/5000 | 0.5 arcsec |
-| r19.fits | 2017-07-15T01:09:57.51 |             bias |   bias |       0 | 600/5000 | 1.5 arcsec |
-| r20.fits | 2017-07-15T01:10:31.17 |             bias |   bias |       0 | 600/5000 | 1.5 arcsec |
-| r21.fits | 2017-07-15T01:11:04.85 |             bias |   bias |       0 | 600/5000 | 1.5 arcsec |
-| r22.fits | 2017-07-15T01:11:38.52 |             bias |   bias |       0 | 600/5000 | 1.5 arcsec |
-| r25.fits | 2017-07-15T01:20:18.17 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r26.fits | 2017-07-15T01:21:38.29 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r27.fits | 2017-07-15T01:22:15.04 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r28.fits | 2017-07-15T01:22:51.85 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r29.fits | 2017-07-15T01:23:28.58 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r30.fits | 2017-07-15T01:24:05.37 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r31.fits | 2017-07-15T01:24:42.12 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r32.fits | 2017-07-15T01:25:18.89 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r33.fits | 2017-07-15T01:25:55.74 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r34.fits | 2017-07-15T01:26:32.46 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r35.fits | 2017-07-15T01:27:09.24 |  trace,pixelflat |   dome |       3 | 600/5000 | 1.5 arcsec |
-| r70.fits | 2017-07-15T04:34:25.69 | standard,science |  BD+33 |     120 | 600/5000 | 1.5 arcsec |
+| filename |                   date |        frametype |     target | exptime | dispname |     decker |
+| r10.fits | 2017-07-15T01:02:26.07 |              arc |        arc |       1 | 600/5000 | 0.5 arcsec |
+| r11.fits | 2017-07-15T01:03:29.70 |              arc |        arc |       3 | 600/5000 | 0.5 arcsec |
+| r12.fits | 2017-07-15T01:05:59.21 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r13.fits | 2017-07-15T01:06:35.25 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r14.fits | 2017-07-15T01:07:08.98 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r15.fits | 2017-07-15T01:07:42.65 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r16.fits | 2017-07-15T01:08:16.36 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r17.fits | 2017-07-15T01:08:50.15 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r18.fits | 2017-07-15T01:09:23.84 |             bias |       bias |       0 | 600/5000 | 0.5 arcsec |
+| r19.fits | 2017-07-15T01:09:57.51 |             bias |       bias |       0 | 600/5000 | 1.5 arcsec |
+| r20.fits | 2017-07-15T01:10:31.17 |             bias |       bias |       0 | 600/5000 | 1.5 arcsec |
+| r21.fits | 2017-07-15T01:11:04.85 |             bias |       bias |       0 | 600/5000 | 1.5 arcsec |
+| r22.fits | 2017-07-15T01:11:38.52 |             bias |       bias |       0 | 600/5000 | 1.5 arcsec |
+| r25.fits | 2017-07-15T01:20:18.17 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r26.fits | 2017-07-15T01:21:38.29 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r27.fits | 2017-07-15T01:22:15.04 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r28.fits | 2017-07-15T01:22:51.85 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r29.fits | 2017-07-15T01:23:28.58 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r30.fits | 2017-07-15T01:24:05.37 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r31.fits | 2017-07-15T01:24:42.12 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r32.fits | 2017-07-15T01:25:18.89 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r33.fits | 2017-07-15T01:25:55.74 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r34.fits | 2017-07-15T01:26:32.46 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r35.fits | 2017-07-15T01:27:09.24 |  trace,pixelflat |       dome |       3 | 600/5000 | 1.5 arcsec |
+| r70.fits | 2017-07-15T04:34:25.69 | standard,science |      BD+33 |     120 | 600/5000 | 1.5 arcsec |
+| r77.fits | 2017-07-15T08:26:47.63 |          science | J2223+0137 |    1200 | 600/5000 | 1.5 arcsec |
+| r78.fits | 2017-07-15T08:47:21.39 |          science | J2223+0137 |    1200 | 600/5000 | 1.5 arcsec |
+| r79.fits | 2017-07-15T09:07:55.13 |          science | J2223+0137 |    1200 | 600/5000 | 1.5 arcsec |
 ##end

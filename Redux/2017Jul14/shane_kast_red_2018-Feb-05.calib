@@ -12,6 +12,6 @@ A:
       r33.fits, r34.fits, r35.fits]
     flat: [r25.fits, r26.fits, r27.fits, r28.fits, r29.fits, r30.fits, r31.fits, r32.fits,
       r33.fits, r34.fits, r35.fits]
-    sci: [r70.fits]
+    sci: [r70.fits, r77.fits, r78.fits, r79.fits]
     trace: [r25.fits, r26.fits, r27.fits, r28.fits, r29.fits, r30.fits, r31.fits,
       r32.fits, r33.fits, r34.fits, r35.fits]
