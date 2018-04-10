@@ -1,66 +1,56 @@
-Setup: Dichroic out, 600/5000 grating, 2” slit, cover 4130-7590 angstroms, parallactic angle
-Afternoon calibrations: biases, arcs (He Hg Cd Ne), flats. Move object trace away from chip defects. 
-If nights end early, take arcs. 
+Setup: Dichroic out, 600/5000 grating, 2.5” slit, cover 4320-7580 angstroms, parallactic angle
+Afternoon calibrations: biases, arcs (He Hg Cd Ne), flats. 
 
 April 9
-19:29 GD71, 300 seconds acquiring, 3*10 seconds exposure
-19:34 12 degrees twilight
-19:35 J0857+0131, 600 seconds acquiring, 2*1800 seconds exposure 
-20:45 J0857+0131, 300 seconds acquiring with new PA, 2*1800 seconds exposure 
-21:50 J0857+0131, 300 seconds acquiring with new PA, 1*1800 seconds exposure
-22:25 J1431-0045, 600 seconds acquiring, 2*1800 seconds exposure
-23:35 J1431-0045, 300 seconds changing PA, 2*1800 seconds exposure
-00:40 J1431-0045, 300 seconds changing PA, 2*1800 seconds exposure
-01:45 J1431-0045, 300 seconds changing PA, 2*1800 seconds exposure 
-02:50 J1628+4314, 600 seconds acquiring, 2*1800 seconds exposure
-04:00 J1628+4314, 300 seconds changing PA, 1*1800 seconds exposure 
-04:35 P330E, 300 seconds acquiring, 3*10 seconds exposure
-04:42 12 degrees twilight 
+...weathering out...
 
-Apirl 10
-19:30 Feige67, 300 seconds acquiring, 3*10 seconds exposure
-19:35 12 degrees twilight 
-19:36 J1149-0021, 600 seconds acquiring, 2*1800 seconds exposure 
-20:46 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure 
-21:51 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure 
-22:56 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure
-00:01 J1149-0021, 300 seconds changing PA, 1*1800 seconds exposure 
-00:36 J1625+4338, 600 seconds acquiring, 2*1800 seconds exposure 
-01:46 J1625+4338, 300 seconds changing PA, 2*1800 seconds exposure 
-02:51 J1625+4338, 300 seconds changing PA 1*1800 seconds exposure
-03:26 J1626+4341, 600 seconds acquiring, 3*1200 seconds exposure
-04:36 P330E, 300 seconds acquiring, 3*10 seconds exposure
-04:41 12 degrees twilight 
-
+April 10
+19:30 GD71, 300 seconds acquiring, 3*10 seconds exposure
+19:35 12 degrees twilight
+19:36 J0857+0131, 600 seconds acquiring, 2*1800 seconds exposure 
+20:46 J0857+0131, 300 seconds changing PA, 2*1800 seconds exposure
+21:51 J1431-0045, 600 seconds acquiring, 2*1800 seconds exposure 
+23:01 J1431-0045, 300 seconds changing PA, 2*1800 seconds exposure 
+00:06 J1431-0045, 300 seconds changing PA, 2*1800 seconds exposure 
+01:11 J1431-0045, 300 seconds changing PA, 1*1800 secods exposure
+01:46 J1627+4357, 600 seconds acquiring, 2*1800 seconds exposure 
+02:56 J1627+4357, 300 seconds acquiring, 2*1200 seconds exposure
+03:41 J1626+4341, 600 seconds acquiring, 2*1500 seconds exposure 
+04:41 P330E, 300 seconds acquiring, 3*10 seconds exposure
+04:41 12 degrees twilight
+04:42 arcs
+ 
 April 11
-Assume weathered out...
+Assume weathered out. 
 
 April 12
-19:32 GD71, 300 seconds acquiring, 3*10 seconds exposure
-19:37 12 degrees twilight 
-19:38 J1203-0006, 600 seconds acquiring, 2*1800 seconds exposure
-20:48 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure 
-21:53 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure 
-22:58 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure 
-00:03 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure
-01:08 J1616+4234, 600 seconds acquiring, 2*1800 seconds exposure
-02:18 J1616+4234, 300 seconds changing PA, 2*1800 seconds exposure
-03:23 J1616+4234, 300 seconds changing PA, 2*1800 seconds exposure
-04:28 P330E, 300 seconds acquiring, 3*10 seconds exposure
+19:32 Feige67, 300 seconds acquiring, 3*10 seconds exposure
+19:37 12 degrees twilight
+19:38 J1149-0021, 600 seconds acquiring, 2*1800 seconds exposure 
+20:48 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure
+21:53 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure
+22:58 J1149-0021, 300 seconds changing PA, 2*1800 seconds exposure
+00:03 J1149-0021, 300 seconds changing PA, 1*1800 seconds exposure
+00:38 J1625+4338, 600 seconds acquiring, 2*1800 seconds exposure
+01:48 J1625+4338, 300 seconds changing PA, 2*1800 seconds exposure
+02:53 J1617+4238, 600 seconds acquiring, 2*1800 secoonds exposure
+04:03 J1617+4238, 300 seconds changing PA, 1*1800 seconds exposure
+04:38 P330E, 300 seconds acquiring, 3*10 seconds exposure
 04:38 12 degrees twilight
+04:44 arcs
 
 April 14
-19:34 Feige66, 300 seconds acquiring, 3*10 seconds exposure
+19:34 GD71, 300 seconds acquiring, 3*10 seconds exposure 
 19:39 12 degrees twilight
-19:40 J0857+0131, 600 seconds acquiring, 2*1800 seconds exposure (or Tiffany’s)
-20:50 J1149-0021, 600 seconds acquiring, 2*1800 seconds exposure (or Tiffany’s)
-22:00 J1431-0045, 600 seconds acquiring, 2*1800 seconds exposure 
-23:10 J1617+4238, 600 seconds acquiring, 2*1800 seconds exposure 
-00:20 J1617+4238, 300 seconds changing PA, 2*1800 seconds exposure
-01:25 J1627+4357, 600 seconds acquiring, 2*1800 seconds exposure 
-02:35 J1627+4357, 300 seconds changing PA, 2*1800 seconds exposure
-03:45 J1627+4357, 300 seconds changing PA, 1*1800 seconds exposure
-04:20 P330E, 300 seconds acquiring, 3*10 seconds exposure
-04:35 12 degrees twilight 
-
-
+19:40 J1203-0006, 600 seconds acquiring, 2*1800 seconds exposure
+20:50 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure
+21:55 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure
+23:00 J1203-0006, 300 seconds changing PA, 2*1800 seconds exposure
+00:05 J1203-0006, 300 seconds changing PA, 1*1800 seconds exposure
+00:35 J1616+4234, 600 seconds acquiring, 2*1800 seconds exposure
+01:45 J1616+4234, 300 seconds changing PA, 2*1800 seconds exposure
+02:50 J1628+4314, 600 seconds acquiring, 2*1800 seconds exposure
+04:00 J1628+4314, 300 seconds acquiring, 1*1800 seconds exposure
+04:35 P330E 300 seconds acquiring, 3*10 seconds exposure
+04:35 12 degrees twilight
+04:41 arcs
