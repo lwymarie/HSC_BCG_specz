@@ -1,0 +1,31 @@
+# This is a comment line
+
+# Change the default settings
+run ncpus 1
+output overwrite True
+run spectrograph shane_kast_red
+output sorted J1203test
+run setup False
+run calcheck False
+
+# Reduce
+
+# Spect
+spect read
+ pixelflat number 11
+ arc number 2
+ pinhole number 0
+ trace number 11
+ bias number 11
+ standard number 1
+ set standard r225med.fits
+spect end
+
+# Read in the data
+data read
+ /Users/lwymarie/Documents/papers/satfrac/Observing/RawData/2018Apr/*.fits*
+ skip r225.fits
+ skip r226.fits
+ skip r227.fits
+data end
+

@@ -1,0 +1,4 @@
+'filenames': ['spec1d_J1203-0006_KASTr_2018Apr11T072723.54.fits','spec1d_J1203-0006_KASTr_2018Apr11T082755.20.fits','spec1d_J1203-0006_KASTr_2018Apr11T093552.99.fits']
+'a':
+    'object': ['O478-S3195-D01-I0025','O475-S3195-D01-I0026','O540-S3195-D01-I0027']
+    'outfile': 'J1206test.fits'

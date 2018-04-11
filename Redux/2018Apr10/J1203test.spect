@@ -1,0 +1,170 @@
+arc canbe None
+arc check condition01 lampstat07=on|lampstat08=on|lampstat09=on|lampstat10=on|lampstat11=on|lampstat12=on|lampstat13=on|lampstat14=on|lampstat15=on|lampstat16=on
+arc check condition02 exptime>0
+arc idname OBJECT
+arc index []
+arc match dispangle |<=10
+arc match naxis0 =0
+arc match naxis1 =0
+arc number 2
+
+bias canbe None
+bias check condition01 exptime<1
+bias idname DARK
+bias index []
+bias match naxis0 =0
+bias match naxis1 =0
+bias number 11
+
+check 01.DSENSOR 2kx4kHamamatsu
+check 01.NAXIS 2
+
+dark canbe None
+dark check condition01 exptime>999999
+dark idname DARK
+dark index []
+dark match binning ''
+dark number 0
+
+det01 darkcurr 0.0
+det01 dataext01 0
+det01 datasec01 [[0,0],[1,511]]
+det01 datasec02 [[0,0],[512,525]]
+det01 gain [1.9,1.9]
+det01 nonlinear 0.76
+det01 numamplifiers 2
+det01 oscansec01 [[0,0],[526,625]]
+det01 oscansec02 [[0,0],[626,725]]
+det01 platescale 0.43
+det01 ronoise [3.8,3.8]
+det01 saturation 65535.0
+det01 suffix _red
+det01 xgap 0.0
+det01 ygap 0.0
+det01 ysize 1.0
+
+fits calwin 12.0
+fits headext01 0
+fits numhead 1
+fits numlamps 16
+fits timeunit s
+
+keyword airmass 01.AIRMASS
+keyword binning None
+keyword date 01.DATE
+keyword dec 01.DEC
+keyword decker 01.SLIT_N
+keyword detrot None
+keyword dichroic 01.BSPLIT_N
+keyword dispangle 01.GRTILT_P
+keyword dispname 01.GRATNG_N
+keyword equinox None
+keyword exptime 01.EXPTIME
+keyword filter1 01.RDFILT_N
+keyword filter2 None
+keyword hatch None
+keyword idname 01.OBSTYPE
+keyword lampname01 01.LAMPNAM1
+keyword lampname02 01.LAMPNAM2
+keyword lampname03 01.LAMPNAM3
+keyword lampname04 01.LAMPNAM4
+keyword lampname05 01.LAMPNAM5
+keyword lampname06 01.LAMPNAMA
+keyword lampname07 01.LAMPNAMB
+keyword lampname08 01.LAMPNAMC
+keyword lampname09 01.LAMPNAMD
+keyword lampname10 01.LAMPNAME
+keyword lampname11 01.LAMPNAMF
+keyword lampname12 01.LAMPNAMG
+keyword lampname13 01.LAMPNAMH
+keyword lampname14 01.LAMPNAMI
+keyword lampname15 01.LAMPNAMJ
+keyword lampname16 01.LAMPNAMK
+keyword lamps None
+keyword lampstat01 01.LAMPSTA1
+keyword lampstat02 01.LAMPSTA2
+keyword lampstat03 01.LAMPSTA3
+keyword lampstat04 01.LAMPSTA4
+keyword lampstat05 01.LAMPSTA5
+keyword lampstat06 01.LAMPSTAA
+keyword lampstat07 01.LAMPSTAB
+keyword lampstat08 01.LAMPSTAC
+keyword lampstat09 01.LAMPSTAD
+keyword lampstat10 01.LAMPSTAE
+keyword lampstat11 01.LAMPSTAF
+keyword lampstat12 01.LAMPSTAG
+keyword lampstat13 01.LAMPSTAH
+keyword lampstat14 01.LAMPSTAI
+keyword lampstat15 01.LAMPSTAJ
+keyword lampstat16 01.LAMPSTAK
+keyword naxis0 01.NAXIS2
+keyword naxis1 01.NAXIS1
+keyword ra 01.RA
+keyword shutclose None
+keyword shutopen None
+keyword slitlen None
+keyword slitwid 01.SLIT_P
+keyword target 01.OBJECT
+keyword time 01.TSEC
+
+mosaic camera KASTr
+mosaic elevation 1283.0
+mosaic latitude 37.3413889
+mosaic longitude 121.6428
+mosaic minexp 0.0
+mosaic ndet 1
+mosaic reduction ARMLSD
+
+pinhole canbe None
+pinhole check condition01 exptime>999999
+pinhole idname None
+pinhole index []
+pinhole number 0
+
+pixelflat canbe [u'trace']
+pixelflat check condition01 lampstat01=on|lampstat02=on|lampstat03=on|lampstat04=on|lampstat05=on
+pixelflat check condition02 exptime>0
+pixelflat idname OBJECT
+pixelflat index []
+pixelflat lscomb False
+pixelflat match decker ''
+pixelflat match dispangle |<=20
+pixelflat match naxis0 =0
+pixelflat match naxis1 =0
+pixelflat number 11
+
+science canbe None
+science check condition01 lampstat01=off&lampstat02=off&lampstat03=off&lampstat04=off&lampstat05=off&lampstat06=off&lampstat07=off&lampstat08=off&lampstat09=off&lampstat10=off&lampstat11=off&lampstat12=off&lampstat13=off&lampstat14=off&lampstat15=off&lampstat16=off
+science check condition02 exptime>1
+science idname OBJECT
+science index []
+
+set arc []
+set bias []
+set dark []
+set pinhole []
+set pixelflat []
+set science []
+set standard [u'r225med.fits']
+set trace []
+
+standard canbe None
+standard check condition01 lampstat01=off&lampstat02=off&lampstat03=off&lampstat04=off&lampstat05=off&lampstat06=off&lampstat07=off&lampstat08=off&lampstat09=off&lampstat10=off&lampstat11=off&lampstat12=off&lampstat13=off&lampstat14=off&lampstat15=off&lampstat16=off
+standard idname OBJECT
+standard index []
+standard match dispangle |<=20
+standard match naxis0 =0
+standard match naxis1 =0
+standard number 1
+
+trace canbe None
+trace check condition01 lampstat01=on|lampstat02=on|lampstat03=on|lampstat04=on|lampstat05=on
+trace check condition02 exptime>0
+trace idname OBJECT
+trace index []
+trace lscomb False
+trace match decker ''
+trace match dispangle |<=20
+trace match naxis0 =0
+trace match naxis1 =0
+trace number 11

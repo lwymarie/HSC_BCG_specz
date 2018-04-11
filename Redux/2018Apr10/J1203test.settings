@@ -1,0 +1,135 @@
+arc calibrate detection 6.0
+arc calibrate IDpixels []
+arc calibrate IDwaves []
+arc calibrate lamps None
+arc calibrate method arclines
+arc calibrate nfitpix 5
+arc calibrate numsearch 20
+arc combine match -1.0
+arc combine method weightmean
+arc combine reject cosmics -1.0
+arc combine reject level [3.0,3.0]
+arc combine reject lowhigh [0,0]
+arc combine reject replace maxnonsat
+arc combine satpix reject
+arc extract binby 1.0
+arc load calibrated False
+arc load extracted False
+arc useframe arc
+
+bias combine method mean
+bias combine reject cosmics 20.0
+bias combine reject level [3.0,3.0]
+bias combine reject lowhigh [0,0]
+bias combine reject replace median
+bias combine satpix reject
+bias useframe bias
+
+output overwrite True
+output sorted J1203test
+output verbosity 2
+
+pinhole combine match -1.0
+pinhole combine method weightmean
+pinhole combine reject cosmics 20.0
+pinhole combine reject level [3.0,3.0]
+pinhole combine reject lowhigh [0,0]
+pinhole combine reject replace maxnonsat
+pinhole combine satpix reject
+pinhole useframe pinhole
+
+pixelflat combine match -1.0
+pixelflat combine method weightmean
+pixelflat combine reject cosmics 20.0
+pixelflat combine reject level [3.0,3.0]
+pixelflat combine reject lowhigh [0,0]
+pixelflat combine reject replace maxnonsat
+pixelflat combine satpix reject
+pixelflat useframe pixelflat
+
+reduce badpix True
+reduce calibrate flux True
+reduce calibrate nonlinear False
+reduce calibrate refframe heliocentric
+reduce calibrate wavelength vacuum
+reduce detnum None
+reduce flatfield method bspline
+reduce flatfield params [20]
+reduce flatfield perform True
+reduce flatfield useframe pixelflat
+reduce flexure maxshift 20
+reduce flexure method boxcar
+reduce flexure perform True
+reduce flexure spectrum None
+reduce masters file 
+reduce masters force False
+reduce masters loaded []
+reduce masters reuse False
+reduce masters setup 
+reduce overscan method savgol
+reduce overscan params [5,65]
+reduce pixel locations None
+reduce pixel size 2.5
+reduce skysub bspline everyn 20
+reduce skysub method bspline
+reduce skysub perform True
+reduce slitcen useframe trace
+reduce slitprofile perform False
+reduce trace useframe trace
+reduce trim True
+
+run calcheck False
+run directory master MF
+run directory qa QA
+run directory science Science
+run load settings None
+run load spect None
+run ncpus 1
+run preponly False
+run progname /Users/lwymarie/python/PYPIT/pypit/pypit.pyc
+run pypitdir /Users/lwymarie/python/PYPIT/pypit/
+run qa False
+run redname J1203test.pypit
+run setup False
+run spectrograph shane_kast_red
+run stopcheck False
+run useIDname False
+
+science extraction manual01 frame None
+science extraction manual01 params None
+science extraction maxnumber 999
+science extraction profile gaussian
+science extraction reuse False
+
+trace combine match -1.0
+trace combine method weightmean
+trace combine reject cosmics 20.0
+trace combine reject level [3.0,3.0]
+trace combine reject lowhigh [0,0]
+trace combine reject replace maxnonsat
+trace combine satpix reject
+trace dispersion direction 0
+trace object find standard
+trace object function legendre
+trace object nsmooth 3
+trace object order 2
+trace object xedge 0.03
+trace slits diffpolyorder 2
+trace slits expand False
+trace slits fracignore 0.01
+trace slits function legendre
+trace slits maxgap None
+trace slits number -1
+trace slits pad 0
+trace slits pca extrapolate neg 0
+trace slits pca extrapolate pos 0
+trace slits pca params [3,2,1,0,0,0]
+trace slits pca type pixel
+trace slits polyorder 3
+trace slits sigdetect 20.0
+trace slits single []
+trace slits tilts idsonly False
+trace slits tilts method spline
+trace slits tilts order 2
+trace slits tilts params [1,1,0]
+trace useframe trace
