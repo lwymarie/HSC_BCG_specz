@@ -46,8 +46,8 @@
 }
 
 \begin{document}
-\noindent {{\bf ID: S000 \hspace{1.3cm} PI: Marie Wingyee Lau \hspace{1.3cm} 
-Inst.: Kast\hspace{1.3cm} Req.: 17 nights}}\\[-1cm]
+\noindent {{\bf ID: S022 \hspace{1.3cm} PI: Marie Wingyee Lau \hspace{1.3cm} 
+Inst.: Kast\hspace{1.3cm} Req.: 10 nights}}\\[-1cm]
 \begin{center}
 \bf\Large
 A Potentially Transformative Approach to Cluster Cosmology 
@@ -104,11 +104,12 @@ finder would only need to model the connection between massive central galaxies 
 than modeling the full red-sequence population.
 
 We intend to apply this method to HSC data of a massive galaxy catalog that comprises super massive galaxies with
-$\log\,(M_*/M_\odot)>11.7$ and $z<0.4$. The majority of galaxies in our sample have spectroscopic redshifts from
+$\log\,(M_*/M_\odot)>11.5$ and $z<0.45$. The majority of galaxies in our sample have spectroscopic redshifts from
 either the GAMA survey or the BOSS survey. However, there is still a small number of galaxies in our sample for which
 we are lacking spectroscopic redshifts. The typical photometric redshift precision $\sigma(z)\approx0.05$ corresponds
 to a co-moving distance of $\approx120\,h^{-1}\,{\rm Mpc}$ at $z=0.4$, which is much larger than the typical size of a
-dark matter halo ($R_{\rm halo}\sim1\,{\rm Mpc}$). Hence photometric redshifts are prone to projection effects, and are insufficient
+dark matter halo ($R_{\rm halo}\sim1\,{\rm Mpc}$). Hence photometric redshifts are prone to projection effects, and are 
+insufficient
 for distinguishing between galaxies in the same halo versus those in more distant halos. On the other hand, the
 minimum resolvable distance is limited by the finger-of-god effect. The typical halos of our study have velocity
 dispersions $\sigma(v)\approx600\,{\rm km\,s^{-1}}$ and this sets our desired redshift precision.
@@ -129,23 +130,18 @@ preparation of DESI.
 \begin{my_itemize}
 \item Busch, P., et al. 2017, MNRAS
 \item Huang, S., et al. 2017, Submitted to MNRAS
-\item Hutchinson, T. A., et al. 2016, AJ
 \item Rozo, E., et al. 2014, ApJ
 \item Rykoff, E. S., et al. 2014, ApJ
 \end{my_itemize}
 
 
 \begin{figure}[hbt]
-\includegraphics[width=\textwidth]{specz_fig1.pdf}
+\includegraphics[width=\textwidth]{J1626.pdf}
 \caption{
-Preliminarily reduced (Grey) and smoothed KAST spectra (Blue) of two galaxies 
-taken during our trial run on 2017 July 14. 
-The galaxies have $r=20.0$ and $r=18.4$ respectively. 
-We overplot the best--fit model based on the SDSS spectra (Red) that have 
-slightly higher signal--to--noise ratio. 
-With the current signal-to-noise $\approx5$ per angstrom, many spectral features (e.g.
-the 4000\,\AA-break; the Ca~II H+K doublet) can be identified and used for 
-measuring redshifts.}
+A Kast spectrum of the J1626+4341 galaxy, zoomed into the CaII H+K doublet region. The galaxy has an {\it r}-magnitude 
+of 18.3, and a spectroscopic redshift of 0.264. The spectrum is a coadd of three one-hour exposures taken on 2018 Apr 21. 
+We mark locations of several common transitions redshifted to the galaxy's frame. 
+.}
 \label{spectrum}
 \end{figure}
 
@@ -153,106 +149,94 @@ measuring redshifts.}
 \begin{SCfigure}[10][hbt]
 \includegraphics[width=4in]{s16a_massive_photoz_pair_gama_kast_targets.pdf}
 \caption{
-Distribution of our 2018A targets, as well as the parent HSC survey sample, as a function of redshift and {\it r}-magnitude}
+Distribution of our 2018B targets, as well as the parent HSC survey sample, as a function of redshift and {\it r}-magnitude}
 \end{SCfigure}
 
 \begin{figure}[hbt]
-\includegraphics[width=\textwidth]{specz_fig3.pdf}
+\includegraphics[width=\textwidth]{visibility/2018B.pdf}
 \caption{
-(Left) visibility curves of three of our targeted fields on 2018 February 1. (Right) visibility curves on 2018
-May 1. March and April will be optimal time for our program.}
+(Left) Visibility curves of our four targeted fields on 2018 August 1. (Right) Visibility curves on 2019 January 31. We 
+request first-half-nights in August, and second-half-nights in January. Our targets will not be visible for more than half 
+of the nights in other months.}
 \end{figure}
 
 \clearpage
 
 \section{Targets and Exposures}
 
-With Kast observations, we will eventually acquire spectroscopic redshifts of 87 galaxies in six different fields in
-the sky. Our sample is selected from our HSC catalogs with  $0.30<z_{\rm photo}<0.45$ (our redshift range of interest).
-We will use the {\it redmonster} software (Hutchinson et al. 2016) to cross-correlate Kast spectra with galaxy
-templates. We were granted director discretionary time on 2017 July 14 for a trial run. We observed four galaxies that
-have spectroscopic redshifts already determined from SDSS, to determine the signal-to-noise required for deriving
-reliable spectroscopic redshifts, and the brightness limit for Kast observations. We observed four galaxies with
-$r=20.0$, $r=19.3$, $r=18.4$, and $r=18.8$, each with exposure time $3600\textrm{---}5400$\,s. We performed
-preliminary data reduction using PYPIT. Figure 1 shows our Kast spectra of two of the observed galaxies (smoothed for
-clarity), the SDSS spectra, and the SDSS models. While proper fluxing and cosmic ray rejection are still in progress,
-our preliminary analysis shows that our coadd spectra have signal-to-noise $>5$ per angstrom which is sufficient for
-measuring a redshift. Key features, such at the CaII H\& K lines, and the H$\delta$ line can be seen in Figure
-\ref{spectrum}\textemdash fitting these absorption features will provide us with redshifts. Figure \ref{spectrum}
-shows that our program is feasible for galaxies with $r\lesssim20$.
+For this current semester, With Kast observations, we aim at acquiring spectroscopic redshifts of 8 to 14 galaxies in four 
+different fields in the sky. Our sample is selected from our HSC catalogs with  $0.25<z_{\rm photo}<0.45$ (our redshift 
+range of interest).
+We will use the {\it RedRock} software to cross-correlate Kast spectra with galaxy
+templates. The distribution of our 2018B targets as well as the parent HSC survey sample in redshift and magnitude are 
+shown in Figure~2. 
 
-Among our six targeted fields, three fields are observable in 2018A, namely GAMA-09, GAMA-12, and GAMA-15. We will use
-the Shane 3m telescope and the Kast spectrograph to observe 34 galaxies. The distribution of our 2018A targets as well
-as the parent HSC survey sample in redshift and magnitude is shown in Figure 2. Our trial run had 31\% dark time. Given
-the faintness of our targets, dark time is preferred.
+We were awarded nine nights in 2018A. However, we almost lost our entire program to weather. We have only obtained 
+spectroscopic redshift for one galaxy. Figure 1 shows our Kast spectrum of this galaxy, J1626+4341. We reduced the data 
+using the PYPIT software. This is the brightest target on our list, with {\it r}-magnitude of 18.3. We attempted 
+observing other galaxies on our list, e.g.\ J0857+0131 of {\it r}-magnitude 19.8, and estimated the brightness limit of 
+Kast. We find that, for galaxies of $r\sim20$, the object trace 
+{\it cannot} be identified on a one-hour Kast red frame at wavelengths $<5000\,\AA$, even under good weather conditions. 
+In our 2017 trial run that was director's discretionary time, we observed 
+four galaxies that have spectroscopic redshifts already determined from SDSS, to determine the signal-to-noise required 
+for deriving reliable spectroscopic redshifts. We find that a signal-to-noise of $>5$ per angstrom is necessary for 
+measuring a redshift. A minimum of 
+$3\times2\,{\rm hours}=6\,{\rm hours}$ exposure is necessary for faint galaxies of $r\sim20$. As the key features to 
+be detected{\textemdash}the CaII H+K doublet and the 4000\,\AA break, 
+lie on a steep slope in flux and on the blue end of the Kast red side which has lower efficiency, long exposures are 
+required. As the exposure time per frame is long, three frames are necessary for cleaning cosmic rays and alpha particles 
+from the dewar. 
 
-Our science goal will require $\approx7200$\,s of exposure to obtain sufficient signal-to-noise. These long exposures
-will be broken into 1800\,s exposures as a compromise between CCD read noise and cosmic ray accumulation. With
-overhead, we can observe 3 targets per night. Accounting for poor weather conditions and Target of Opportunity
-interrupts, we request 17 nights. Figure 3 shows the visibility curves of the three GAMA fields on 2018 February 1 and
-2018 May 1. Because of the low declination, our targets are only observable in a relatively narrow range of time in a
-semester. We request time allocation in March and April when more of our targets are within the telescope pointing
-limit.
+Among our four targeted fields, the HectoMap field is visible from dusk until midnight in 2018 August, while the GAMA-09, 
+GAMA-12, and GAMA-15 fields are visible from midnight until dawn in 2019 January. Our fields will not be visible in 
+other months in 2018B. Therefore, we request first-half-nights in 2018 August and second-half-nights in 2019 January. If 
+we are awarded full nights instead, we will supplement the other half of the nights with targets from the J.\ X.\ 
+Prochaska research group. Figure~3 shows the visibility curves of the four targeted fields on 2018 August 1 and 2019 
+January 31. While dark time is preferred due to the faintness of our targets, our time constraints are more 
+critical than dark time.  
 
-Our set up will resolve the 4000\,\AA\ break and the Ca II H and K lines, while simultaneously covering a sufficiently
-broad wavelength range for full SED fitting (Figure 1). To this end, we will use the 600/5000 grating on the red side.
-At 5000\,\AA\, a precision of $600\,{\rm km\,s^{-1}}$ corresponds to 15\,\AA, which is many resolution elements.
+We will use the $3''$ slit and the 600/5000 grating on the Kast red side. We will not use the blue side and will take 
+out the dichroic beamsplitter. This wide slit will allow more light from our massive, extended galaxies. Our setup will 
+resolve and cover the 4000\,\AA\ break, the CaII H and K lines, and the G-band features for a sufficiently wide 
+redshift range. 
+Our science goal will require 2~hours to 10~hours of exposure per object to obtain sufficient signal-to-noise. These 
+long exposures will be broken into one-hour to two-hour exposures, depending on the minimum exposure time required to 
+identify the object trace. With overhead, we can observe on average 2 targets per night. Accounting for poor weather 
+conditions and Target of Opportunity interrupts, {\bf we request 6 first-half-nights in (early) August and 14 
+second-half-nights in (late) January.}
 
-Table 1 lists the galaxies in the three targeted GAMA fields to be observed in 2018A. We will observe additional
-targets in the HSC footprint if we are granted additional observing time.
+Table~1 lists our galaxies to be observed in 2018B. We will observe the second priority targets if we are granted 
+additional observing time. In poor observing conditions we will increase the exposure time and give preference to 
+brighter targets. 
 
-In poor observing conditions we will increase the exposure time and give preference to brighter targets. 
-
-% ------------------------------------------------------------------------------- %
-%% Target list by Song Huang 
 \begin{table}
 \caption{List of targets.}
 \begin{tabular}{ccccccc}
 \hline
+Name & RA (J2000) & Dec (J2000) & SDSS $r$-mag & photo-$z$ & Exposure (s) & Priority \\
+\hline
+J0857+0131 & 08:57:06.37 & +01:31:30.7 & 19.8 & 0.42 & 21600 & 1 \\
+J1149-0021 & 11:49:48.12 & -00:21:53.6 & 20.4 & 0.43 & 21600 & 1 \\
+J1203-0006 & 12:03:46.51 & -00:06:28.2 & 20.2 & 0.42 & 21600 & 1 \\
+J1431-0045 & 14:31:33.58 & -00:45:11.2 & 20.3 & 0.43 & 21600 & 1 \\
+J1616+4234 & 16:16:49.60 & +42:34:08.9 & 19.6 & 0.43 & 14400 & 1 \\
+J1625+4338 & 16:25:24.37 & +43:38:11.0 & 19.6 & 0.40 & 14400 & 1 \\
+J1627+4357 & 16:27:36.12 & +43:57:07.4 & 19.5 & 0.41 & 14000 & 1 \\
+J1628+4314 & 16:28:29.55 & +43:14:55.7 & 18.9 & 0.38 & 7200 & 1 \\
+J0852+0137 & 08:52:57.98 & +01:37:05.6 & 19.9 & 0.44 & 21600 & 2 \\
+J0904+0000 & 09:04:08.14 & +00:00:34.1 & 20.1 & 0.42 & 21600 & 2 \\
+J1155-0031 & 11:55:11.12 & -00:31:26.6 & 19.1 & 0.33 & 10800 & 2 \\
+J1621+4312 & 16:21:59.10 & +43:12:44.8 & 20.2 & 0.44 & 21600 & 2 \\
+J1627+4310 & 16:27:38.23 & +43:10:24.0 & 19.2 & 0.44 & 10800 & 2 \\
 
-Name & RA (J2000) & Dec (J2000) & SDSS $r$-mag & photo-$z$ & Exposure (s) \\
-\hline
-J091751.99+0356 & 09:17:51.99 & +03:56:10.38 & 19.45 & 0.30 & 5400 \\
-J145916.60-0103 & 14:59:16.60 & -01:03:17.76 & 17.97 & 0.31 & 5400 \\
-J091749.63+0357 & 09:17:49.63 & +03:57:28.21 & 18.59 & 0.32 & 5400 \\
-J145813.92+0030 & 14:58:13.92 & +00:30:24.54 & 19.10 & 0.33 & 5400 \\
-J115511.15-0031 & 11:55:11.15 & -00:31:26.70 & 19.18 & 0.33 & 5400 \\
-J091412.19+0300 & 09:14:12.19 & +03:00:13.36 & 19.54 & 0.35 & 7200 \\
-J145842.01+0038 & 14:58:42.01 & +00:38:10.53 & 18.91 & 0.35 & 5400 \\
-J090917.11+0403 & 09:09:17.11 & +04:03:19.14 & 19.09 & 0.36 & 5400 \\
-J090316.77+0351 & 09:03:16.77 & +03:51:39.93 & 18.45 & 0.38 & 5400 \\
-J145415.05-0018 & 14:54:15.05 & -00:18:54.08 & 19.81 & 0.39 & 7200 \\
-J091353.38+0353 & 09:13:53.38 & +03:53:15.42 & 19.34 & 0.40 & 5400 \\
-J145450.36+0009 & 14:54:50.36 & +00:09:34.02 & 19.30 & 0.40 & 5400 \\
-J085706.37+0131 & 08:57:06.37 & +01:31:30.65 & 19.87 & 0.41 & 7200 \\
-J150014.41-0032 & 15:00:14.41 & -00:32:23.52 & 19.62 & 0.41 & 7200 \\
-J091148.76+0325 & 09:11:48.76 & +03:25:12.36 & 19.64 & 0.42 & 7200 \\
-J145400.65-0034 & 14:54:00.65 & -00:34:35.40 & 19.88 & 0.42 & 7200 \\
-J090425.96+0035 & 09:04:25.96 & +00:35:48.75 & 20.19 & 0.43 & 9000 \\
-J090330.44+0327 & 09:03:30.44 & +03:27:06.66 & 19.26 & 0.43 & 5400 \\
-J090223.13+0342 & 09:02:23.13 & +03:42:58.15 & 19.47 & 0.43 & 5400 \\
-J144903.56+0026 & 14:49:03.56 & +00:26:52.30 & 20.11 & 0.43 & 9000 \\
-J143133.57-0045 & 14:31:33.57 & -00:45:11.20 & 20.16 & 0.43 & 9000 \\
-J144341.83-0043 & 14:43:41.83 & -00:43:40.18 & 19.78 & 0.43 & 7200 \\
-J090954.01+0152 & 09:09:54.01 & +01:52:29.43 & 19.86 & 0.44 & 7200 \\
-J145403.99-0014 & 14:54:03.99 & -00:14:20.33 & 19.84 & 0.44 & 7200 \\
-J140316.21-0047 & 14:03:16.21 & -00:47:59.20 & 19.89 & 0.44 & 7200 \\
-J090557.49+0212 & 09:05:57.49 & +02:12:33.37 & 19.62 & 0.45 & 7200 \\
-J085454.38+0032 & 08:54:54.38 & +00:32:55.72 & 20.25 & 0.45 & 9000 \\
-J091720.12+0410 & 09:17:20.12 & +04:10:26.59 & 19.01 & 0.45 & 5400 \\
-J091908.04+0325 & 09:19:08.04 & +03:25:27.52 & 20.07 & 0.45 & 9000 \\
-J090334.79+0307 & 09:03:34.79 & +03:07:54.48 & 20.10 & 0.45 & 9000 \\
-J145154.93+0016 & 14:51:54.93 & +00:16:20.30 & 19.91 & 0.45 & 7200 \\
-J140513.07+0017 & 14:05:13.07 & +00:17:39.83 & 20.02 & 0.45 & 9000 \\
-J145931.33-0002 & 14:59:31.33 & -00:02:44.57 & 20.13 & 0.45 & 9000 \\
-J120422.63-0017 & 12:04:22.63 & -00:17:19.83 & 19.92 & 0.45 & 7200 \\
-\hline
 \end{tabular}
 \end{table}
 
 \section{Supplementary Observations Required from other Observatories}
 
-Our full cluster catalogs include spectroscopic redshift catalogs from the GAMA team. 
+Our full cluster catalogs include spectroscopic redshift catalogs from the GAMA team. We will 
+request observing time from Gemini Observatory for targets that are fainter than 
+{\it r}-magnitude of 20. 
 
 \section{Technical Remarks}
 
@@ -260,16 +244,16 @@ We have none.
 
 \subsection{Status of Previously Approved 3-m Programs}
 
-This program obtained director's discretionary time of one night in 2017A.
+This program obtained director's discretionary time of one night in 2017A, and nine regular 
+nights in 2018B. We lost eight out of the nine nights our 2018B program to weather. 
 
-PI Lau is a graduate student at UCSC, who has been awarded a total of 22 nights in 2015A, 2016A, 
-and 2017A for the program Late-time Optical Spectral Signatures of Tidal Disruption Candidates. 
-The observing program is completed and the path to publication is active. 
+PI Lau is a postdoctoral at UCSC, who has been awarded a total of 32 nights on Shane and has 
+been the lead observer of 60 nights on Shane using Kast and ShARCS. 
 
 Co-I Leauthaud and co-I Huang have extensive experience with optical spectroscopy and are experts 
 in massive galaxies. 
 
-Co-I Greg Sallaberry is an aspiring undergraduate researcher at UCSC, who will lead the observing 
+Co-I Greg Sallaberry is an aspiring undergraduate researcher at UCSC, who will join observing 
 and data reduction effort. 
 
 \end{document}
