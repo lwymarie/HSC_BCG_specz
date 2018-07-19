@@ -5,7 +5,6 @@
 20:02 | J1625+4338 | 600s Acquiring | exptime = 7200s
 20:12 | 12-degree twilight
 22:12 | J1625+4338 | 300s Acquiring | exptime = 7200s
-00:17 | Standard Star (P330E?) | 300s Acquiring | exptime = 3x10s
 00:23 | Pointing Limit Reached For Target Galaxies
 
 
@@ -16,5 +15,34 @@
 20:01 | J1625+4338 | 600s Acquiring | exptime = 7200s
 20:11 | 12-degree twilight
 22:11 | J1625+4338 | 300s Acquiring | exptime = 7200s
-00:16 | Standard Star (P330E?) | 300s Acquiring | exptime = 3x10s
 00:22 | Pointing Limit Reached For Target Galaxies
+
+
+
+===================== August 15th, 2018 =====================================
+19:07 | Sunset
+19:45 | P330E | 300s Acquiring | exptime = 3x10s
+19:51 | J1628+4314 | 600s Acquiring | exptime = 5400s
+20:01 | 12-degree twilight
+21:31 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:06 | *another exp?*
+
+
+
+===================== August 16th, 2018 =====================================
+19:06 | Sunset
+19:44 | P330E | 300s Acquiring | exptime = 3x10s
+19:50 | J1628+4314 | 600s Acquiring | exptime = 5400s
+20:00 | 12-degree twilight
+21:30 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:05 | *another exp?*
+
+
+
+===================== August 16th, 2018 =====================================
+19:04 | Sunset
+19:42 | P330E | 300s Acquiring | exptime = 3x10s
+19:48 | J1628+4314 | 600s Acquiring | exptime = 5400s
+19:58 | 12-degree twilight
+21:28 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:03 | *another exp?*
