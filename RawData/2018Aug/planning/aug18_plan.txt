@@ -32,7 +32,7 @@ Afternoon | For the low z setup, check coverage, take arcs, flats, biases.
           | on blue side
 01:42     | J2206-0030, low z setup, 600s acquiring,
           | 2*1800s exposure
-02:52     | J2206-0030, 300s acquiring and changing PA, 2*1800s
+02:52     | J2206-0030, low z setup, 300s acquiring and changing PA, 2*1800s
           | exposure
 03:57     | arcs for all three setups
 04:13     | 12-degree twilig
