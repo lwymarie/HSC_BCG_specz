@@ -4,20 +4,26 @@ Grism: 600/4310
 Slit: 3"
 Dichroic: mirror
 Coverage: 3500--5520 angstroms
+
 High z setup, Kast red only:
 Grating: 600/5000
 Slit: 3"
 Dichroic: out
 Coverage: 4320--7580 angstroms
+
 Ning Jiang's setup:
 Grism: 600/4310
 Grating: 600/5000
 Slit: 1.5"
 Dichroic: d55
 Coverage: 3500--5520, 5300--8700 angstroms, contiguous
-Afternoon | For the low z setup, check coverage, take arcs, flats, biases.
-          | For the high z setup, check coverage, take arcs, flats, biases.
-          | For Ning's setup, check coverage, take arcs, flats, biases.
+
+Afternoon | For the low z setup, check coverage, focus, take arcs, flats,
+          | biases.
+          | For the high z setup, check coverage, focus, take arcs, flats,
+          | biases.
+          | For Ning's setup, check coverage, focus, take arcs, flats,
+          | biases.
 19:16     | Sunset
 19:52     | P330E (standard), high z setup, 300s acquiring, 3*10s exposure
 20:02     | J1625+4338, high z setup, 600s acquiring, 1*7200s exposure
@@ -35,11 +41,12 @@ Afternoon | For the low z setup, check coverage, take arcs, flats, biases.
 02:52     | J2206-0030, low z setup, 300s acquiring and changing PA, 2*1800s
           | exposure
 03:57     | arcs for all three setups
-04:13     | 12-degree twilig
+04:13     | 12-degree twilight
 
 
 ===================== August 8th, 2018 =====================================
-Afternoon | Low z setup only. Check coverage, take arcs, flats, biases.
+Afternoon | Low z setup only. Check coverage, focus, take arcs, flats,
+          | biases.
 19:15     | Sunset
 19:51     | P330E (standard), 300s acquiring, 1*30s exposure
 20:01     | J1611+4405, 600s acquiring, 2*1800s exposure
