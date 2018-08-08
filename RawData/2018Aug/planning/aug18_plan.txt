@@ -88,7 +88,7 @@ Afternoon | Low z setup only. Check coverage, focus, take arcs, flats,
 
 
 
-===================== August 16th, 2018 =====================================
+===================== August 17th, 2018 =====================================
 19:04 | Sunset
 19:42 | P330E | 300s Acquiring | exptime = 3x10s
 19:48 | J1628+4314 | 600s Acquiring | exptime = 5400s
