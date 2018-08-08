@@ -1,0 +1,97 @@
+===================== August 7th, 2018 =====================================
+Low z setup, Kast blue only:
+Grism: 600/4310
+Slit: 3"
+Dichroic: mirror
+Coverage: 3500--5520 angstroms
+
+High z setup, Kast red only:
+Grating: 600/5000
+Slit: 3"
+Dichroic: out
+Coverage: 4320--7580 angstroms
+
+Ning Jiang's setup:
+Grism: 600/4310
+Grating: 600/5000
+Slit: 1.5"
+Dichroic: d55
+Coverage: 3500--5520, 5300--8700 angstroms, contiguous
+
+Afternoon | For the low z setup, check coverage, focus, take arcs, flats,
+          | biases.
+          | For the high z setup, check coverage, focus, take arcs, flats,
+          | biases.
+          | For Ning's setup, check coverage, focus, take arcs, flats,
+          | biases.
+19:16     | Sunset
+19:52     | P330E (standard), high z setup, 300s acquiring, 3*10s exposure
+20:02     | J1625+4338, high z setup, 600s acquiring, 1*7200s exposure
+20:12     | 12-degree twilight
+22:12     | J1625+4338, high z setup, 300s acquiring and changing PA,
+          | 1*7200s exposure
+00:17     | J1835+3241 (Ning's), Ning's setup, 300s acquiring, 3*1200s
+          | exposure
+01:22     | G93-48 (standard), Ning's setup, 300s acquiring, 1*30s exposure
+          | on blue side and 3*10s exposure on red side
+01:32     | G93-48 (standard), low z setup, 300s acquiring, 1*30s exposure
+          | on blue side
+01:42     | J2206-0030, low z setup, 600s acquiring,
+          | 2*1800s exposure
+02:52     | J2206-0030, low z setup, 300s acquiring and changing PA, 2*1800s
+          | exposure
+03:57     | arcs for all three setups
+04:13     | 12-degree twilight
+
+
+===================== August 8th, 2018 =====================================
+Afternoon | Low z setup only. Check coverage, focus, take arcs, flats,
+          | biases.
+19:15     | Sunset
+19:51     | P330E (standard), 300s acquiring, 1*30s exposure
+20:01     | J1611+4405, 600s acquiring, 2*1800s exposure
+20:11     | 12-degree twilight
+21:11     | J1611+4405, 300s acquiring and changing PA, 2*1800s
+          | exposure
+22:16     | J1622+4229, 600s acquiring, 2*1800s exposure
+23:26     | J1622+4229, 300s acquiring and changing PA, 1*1800s
+          | exposure
+00:01     | J2208+0127, 600s acquiring, 2*1800s exposure
+01:11     | J2208+0127, 300s acquiring and changing PA, 2*1800s
+          | exposure
+02:21     | J2208+0124, 600s acquiring, 2*1800s exposure
+03:31     | J2208+0124, 300s acquiring and changing PA, 1*1800s
+          | exposure
+04:06     | BD+174708 (standard), 300s acquiring, 1*30s exposure
+04:14     | 12-degree twilight
+04:16     | arcs
+
+
+
+===================== August 15th, 2018 =====================================
+19:07 | Sunset
+19:45 | P330E | 300s Acquiring | exptime = 3x10s
+19:51 | J1628+4314 | 600s Acquiring | exptime = 5400s
+20:01 | 12-degree twilight
+21:31 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:06 | *another exp?*
+
+
+
+===================== August 16th, 2018 =====================================
+19:06 | Sunset
+19:44 | P330E | 300s Acquiring | exptime = 3x10s
+19:50 | J1628+4314 | 600s Acquiring | exptime = 5400s
+20:00 | 12-degree twilight
+21:30 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:05 | *another exp?*
+
+
+
+===================== August 16th, 2018 =====================================
+19:04 | Sunset
+19:42 | P330E | 300s Acquiring | exptime = 3x10s
+19:48 | J1628+4314 | 600s Acquiring | exptime = 5400s
+19:58 | 12-degree twilight
+21:28 | J1628+4314 | 300s Acquiring | exptime = 5400s
+23:03 | *another exp?*
