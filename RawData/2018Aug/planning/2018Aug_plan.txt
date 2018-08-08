@@ -45,7 +45,12 @@ Afternoon | For the low z setup, check coverage, focus, take arcs, flats,
 
 
 ===================== August 8th, 2018 =====================================
-Afternoon | Low z setup only. Check coverage, focus, take arcs, flats,
+Low z setup, Kast blue only:
+Grism: 600/4310
+Slit: 3"
+Dichroic: mirror
+Coverage: 3500--5520 angstroms
+Afternoon | Check coverage, focus, take arcs, flats,
           | biases.
 19:15     | Sunset
 19:51     | P330E (standard), 300s acquiring, 1*30s exposure
