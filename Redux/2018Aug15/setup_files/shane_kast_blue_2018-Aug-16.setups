@@ -1,0 +1,6 @@
+A:
+  --:
+    dichroic: mirror
+    disperser: {angle: none, name: 600/4310}
+    slit: {decker: 3.0 arcsec, slitlen: none, slitwid: none}
+  '01': {binning: None, det: 1, namp: 2}

@@ -1,0 +1,13 @@
+A:
+  --:
+    dichroic: mirror
+    disperser: {angle: none, name: 600/4310}
+    slit: {decker: 0.5 arcsec, slitlen: none, slitwid: none}
+  '01': {binning: None, det: 1, namp: 2}
+  aa:
+    arc: [b104.fits]
+    bias: [b122.fits, b123.fits, b124.fits, b125.fits, b126.fits]
+    pixelflat: [b111.fits, b112.fits, b113.fits, b114.fits, b115.fits]
+    science: [b128.fits, b129.fits, b130.fits, b131.fits, b132.fits, b133.fits, b134.fits,
+      b135.fits, b136.fits, b137.fits]
+    trace: [b111.fits, b112.fits, b113.fits, b114.fits, b115.fits]
