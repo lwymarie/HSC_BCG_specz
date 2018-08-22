@@ -1,0 +1,59 @@
+# This is a comment line
+
+# User-defined execution parameters
+[rdx]
+    spectrograph = shane_kast_blue
+    sortroot = shane_kast_blue_setup_A
+[calibrations]
+    [[arcframe]]
+        number = 1
+    [[pixelflatframe]]
+        number = 3
+    [[traceframe]]
+        number = 3
+
+# Setup
+setup read
+ Setup A
+ --:
+   dichroic: mirror
+   disperser: {angle: none, name: 600/4310}
+   slit: {decker: 0.5 arcsec, slitlen: none, slitwid: none}
+ '01': {binning: None, det: 1, namp: 2}
+setup end
+
+# Read in the data
+data read
+ path /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug17/
+|  filename |                   date |       frametype |       target | exptime | dispname |     decker |
+| b101.fits | 2018-08-17T23:31:07.57 |             arc | He+Hg+Cd_arc |    30.0 | 600/4310 | 0.5 arcsec |
+| b102.fits | 2018-08-17T23:34:10.77 |             arc | He+Hg+Cd_arc |    60.0 | 600/4310 | 0.5 arcsec |
+| b103.fits | 2018-08-17T23:35:40.37 |             arc | He+Hg+Cd_arc |    20.0 | 600/4310 | 3.0 arcsec |
+| b104.fits | 2018-08-17T23:36:50.57 |             arc | He+Hg+Cd_arc |    10.0 | 600/4310 | 3.0 arcsec |
+| b105.fits | 2018-08-17T23:37:56.60 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b106.fits | 2018-08-17T23:38:29.90 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b107.fits | 2018-08-17T23:38:47.24 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b108.fits | 2018-08-17T23:39:04.58 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b109.fits | 2018-08-17T23:39:21.93 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b110.fits | 2018-08-17T23:39:39.27 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b111.fits | 2018-08-17T23:39:56.86 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b112.fits | 2018-08-17T23:40:14.19 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b113.fits | 2018-08-17T23:40:31.54 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b114.fits | 2018-08-17T23:40:48.89 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b115.fits | 2018-08-17T23:41:06.24 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b116.fits | 2018-08-17T23:41:23.60 |            bias |         Bias |     0.0 | 600/4310 | 3.0 arcsec |
+| b117.fits | 2018-08-17T23:45:05.82 | pixelflat,trace |     Domeflat |    10.0 | 600/4310 | 3.0 arcsec |
+| b118.fits | 2018-08-17T23:46:56.71 | pixelflat,trace |     Domeflat |     6.0 | 600/4310 | 3.0 arcsec |
+| b119.fits | 2018-08-17T23:47:56.73 | pixelflat,trace |     Domeflat |     6.0 | 600/4310 | 3.0 arcsec |
+| b120.fits | 2018-08-17T23:48:44.42 | pixelflat,trace |     Domeflat |     6.0 | 600/4310 | 3.0 arcsec |
+| b122.fits | 2018-08-18T04:15:51.92 |         science |   J1620+4333 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b123.fits | 2018-08-18T04:50:19.09 |         science |   J1624+4249 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b124.fits | 2018-08-18T05:23:28.09 |         science |   J1624+4249 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b125.fits | 2018-08-18T05:58:47.74 |         science |   J1622+4229 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b126.fits | 2018-08-18T06:29:16.96 |         science |   J1622+4229 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b127.fits | 2018-08-18T07:02:37.01 |         science |   J1622+4229 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b128.fits | 2018-08-18T07:40:24.39 |         science |   J2244+0147 |  1800.0 | 600/4310 | 3.0 arcsec |
+| b129.fits | 2018-08-18T07:59:55.41 |         science |   J2244+0147 |  960.51 | 600/4310 | 3.0 arcsec |
+| b121.fits | 2018-08-18T03:40:56.55 |        standard |        P330E |    60.0 | 600/4310 | 3.0 arcsec |
+data end
+

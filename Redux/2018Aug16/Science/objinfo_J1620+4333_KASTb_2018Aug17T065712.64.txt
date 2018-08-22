@@ -1,0 +1,2 @@
+| slit |                 name | box_width | opt_fwhm |  s2n |
+|    1 | O0180-S001-D01-I0020 |      6.45 |    1.370 | 2.43 |

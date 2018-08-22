@@ -1,0 +1,2 @@
+| slit |                 name | box_width | opt_fwhm |  s2n |
+|    1 | O0185-S001-D01-I0026 |      7.31 |    1.414 | 2.02 |

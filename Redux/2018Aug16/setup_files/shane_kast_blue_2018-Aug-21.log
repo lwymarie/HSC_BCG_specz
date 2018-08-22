@@ -1,0 +1,205 @@
+------------------------------------------------------
+
+This log was generated with version 0.8.2dev of PYPIT
+
+You are using scipy version=1.0.0
+You are using numpy version=1.14.0
+You are using astropy version=3.0.4
+
+------------------------------------------------------
+
+[INFO]    :: util.py 431 parse_pypeit_file() - Loading the reduction file
+[INFO]    :: util.py 456 parse_pypeit_file() - Found 26 raw data frames
+[INFO]    :: util.py 468 parse_pypeit_file() - Input file loaded successfully
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b106.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b106.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b110.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b110.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b111.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b111.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b107.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b107.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b120.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b120.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b100.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b100.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b116.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b116.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b117.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b117.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b101.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b101.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b121.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b121.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b118.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b118.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b122.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b122.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b114.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b114.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b102.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b102.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b103.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b103.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b115.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b115.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b123.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b123.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b119.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b119.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b112.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b112.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b104.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b104.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b108.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b108.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b124.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b124.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b125.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b125.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b109.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b109.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b105.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b105.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b113.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b113.fits
+[INFO]    :: load.py 142 load_headers() - Checking spectrograph settings for required header information
+[INFO]    :: load.py 153 load_headers() - Headers loaded for 26 files successfully
+[INFO]    :: fsort.py 103 type_data() - Typing files
+[INFO]    :: fsort.py 197 type_data() - Typing completed!
+[INFO]    :: pypeitsetup.py 326 type_data() - Adding file type information to the fitstbl
+[INFO]    :: fsort.py 479 write_lst() - Preparing to write out the data sorting details
+[INFO]    :: fsort.py 856 match_to_science() - Matching calibrations to Science frames
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J1620+4333: b120.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 904 match_to_science() - No matching criteria for pinhole frames with this instrument
+[INFO]    :: fsort.py 920 match_to_science() -   Found 0 pinhole frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J1620+4333: b121.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 904 match_to_science() - No matching criteria for pinhole frames with this instrument
+[INFO]    :: fsort.py 920 match_to_science() -   Found 0 pinhole frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J1620+4333 (0 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b123.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 904 match_to_science() - No matching criteria for pinhole frames with this instrument
+[INFO]    :: fsort.py 920 match_to_science() -   Found 0 pinhole frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b124.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 904 match_to_science() - No matching criteria for pinhole frames with this instrument
+[INFO]    :: fsort.py 920 match_to_science() -   Found 0 pinhole frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b125.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 904 match_to_science() - No matching criteria for pinhole frames with this instrument
+[INFO]    :: fsort.py 920 match_to_science() -   Found 0 pinhole frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (0 required)
+[INFO]    :: fsort.py 941 match_to_science() - Science frames successfully matched to calibration frames
+[INFO]    :: pypeitsetup.py 206 build_group_dict() - Wrote group dict to /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/setup_files/shane_kast_blue_2018-Aug-21.sorted
+[INFO]    :: pypeitsetup.py 475 run() - Setup is complete.
+[INFO]    :: pypeitsetup.py 476 run() - Inspect the .setups file
+[INFO]    :: pypeit.py 98 PypeIt() - Setup complete

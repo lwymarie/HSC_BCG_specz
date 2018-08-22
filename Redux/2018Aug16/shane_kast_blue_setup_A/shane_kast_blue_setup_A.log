@@ -1,0 +1,1859 @@
+------------------------------------------------------
+
+This log was generated with version 0.8.2dev of PYPIT
+
+You are using scipy version=1.0.0
+You are using numpy version=1.14.0
+You are using astropy version=3.0.4
+
+------------------------------------------------------
+
+[INFO]    :: util.py 431 parse_pypeit_file() - Loading the reduction file
+[INFO]    :: util.py 456 parse_pypeit_file() - Found 26 raw data frames
+[INFO]    :: util.py 468 parse_pypeit_file() - Input file loaded successfully
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b111.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b111.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b112.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b112.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b113.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b113.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b114.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b114.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b100.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b100.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b101.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b101.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b102.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b102.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b103.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b103.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b104.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b104.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b105.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b105.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b106.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b106.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b107.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b107.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b108.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b108.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b109.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b109.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b110.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b110.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b115.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b115.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b116.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b116.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b117.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b117.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b118.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b118.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b119.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b119.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b120.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b120.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b121.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b121.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b123.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b123.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b124.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b124.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b125.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b125.fits
+[WARNING] :: load.py 93 load_headers() - UTC is not listed as a header keyword in file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b122.fits
+[WARNING] :: load.py 102 load_headers() - BINNING keyword not in header. Setting to None
+[INFO]    :: load.py 139 load_headers() - Successfully loaded headers for file:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/RawData/2018Aug16/b122.fits
+[INFO]    :: load.py 142 load_headers() - Checking spectrograph settings for required header information
+[INFO]    :: load.py 153 load_headers() - Headers loaded for 26 files successfully
+[INFO]    :: fsort.py 103 type_data() - Typing files
+[INFO]    :: pypeitsetup.py 326 type_data() - Adding file type information to the fitstbl
+[INFO]    :: fsort.py 856 match_to_science() - Matching calibrations to Science frames
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J1620+4333: b120.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 897 match_to_science() -    No pinhole frames are required.  Not matching..
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J1620+4333: b121.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 897 match_to_science() -    No pinhole frames are required.  Not matching..
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J1620+4333 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J1620+4333 (5 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b123.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 897 match_to_science() -    No pinhole frames are required.  Not matching..
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b124.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 897 match_to_science() -    No pinhole frames are required.  Not matching..
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 864 match_to_science() - =================================================
+[INFO]    :: fsort.py 866 match_to_science() - Matching calibrations to J2215+0127: b125.fits
+[INFO]    :: fsort.py 920 match_to_science() -   Found 4 arc frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 11 bias frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 879 match_to_science() -   Dark frames not required.  Not matching..
+[INFO]    :: fsort.py 897 match_to_science() -    No pinhole frames are required.  Not matching..
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 pixelflat frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 1 standard frame for J2215+0127 (1 required)
+[INFO]    :: fsort.py 920 match_to_science() -   Found 5 trace frame for J2215+0127 (5 required)
+[INFO]    :: fsort.py 941 match_to_science() - Science frames successfully matched to calibration frames
+[INFO]    :: fsort.py 1116 make_dirs() - Creating Science directory
+[INFO]    :: fsort.py 1119 make_dirs() - The following directory already exists:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/Science
+[INFO]    :: fsort.py 1139 make_dirs() - Creating Object directories
+[INFO]    :: fsort.py 1177 make_dirs() - Creating Master Calibrations directory
+[INFO]    :: fsort.py 1181 make_dirs() - The following directory already exists:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue
+[INFO]    :: fsort.py 1199 make_dirs() - Creating QA directory
+[WARNING] :: fsort.py 1202 make_dirs() - Pre-existing QA plots will be overwritten
+[INFO]    :: pypeit.py 113 PypeIt() - Data reduction will be performed using PYPIT-ARMS
+[INFO]    :: arms.py 102 ARMS() - Reducing file b120.fits, target J1620+4333
+[INFO]    :: arms.py 114 ARMS() - Working on detector 1
+[WARNING] :: processimages.py 441 process() - Your images have not been bias subtracted!
+[INFO]    :: combine.py 62 comb_frames() - Combining 5 bias frames
+[WORK IN ]::
+[PROGRESS]:: combine.py 66 comb_frames() - lscomb feature has not been included here yet...
+[INFO]    :: combine.py 95 comb_frames() - Finding saturated and non-linear pixels
+[INFO]    :: combine.py 119 comb_frames() - Rejecting cosmic rays
+[INFO]    :: combine.py 163 comb_frames() - Not rejecting any low/high pixels
+[INFO]    :: combine.py 171 comb_frames() - Rejecting deviant pixels
+[INFO]    :: combine.py 188 comb_frames() - Combining frames with a weightmean operation
+[INFO]    :: combine.py 201 comb_frames() - Replacing completely masked pixels with the maxnonsat value of the input frames
+[INFO]    :: combine.py 215 comb_frames() - 5 bias frames combined successfully!
+[INFO]    :: masters.py 314 save_master() - Saving master bias frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterBias_A_01_aa.fits
+[INFO]    :: masters.py 332 save_master() - Writing header information
+[INFO]    :: masters.py 347 save_master() - Master bias frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterBias_A_01_aa.fits
+[INFO]    :: calibrations.py 195 get_arc() - Preparing a master arc frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: masters.py 314 save_master() - Saving master arc frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterArc_A_01_aa.fits
+[INFO]    :: masters.py 332 save_master() - Writing header information
+[INFO]    :: masters.py 347 save_master() - Master arc frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterArc_A_01_aa.fits
+[INFO]    :: pixels.py 37 gen_pixloc() - Deriving physical pixel locations on the detector
+[INFO]    :: pixels.py 40 gen_pixloc() - Pixel gap in the dispersion direction = 0.000
+[INFO]    :: pixels.py 41 gen_pixloc() - Pixel size in the dispersion direction = 1.000
+[INFO]    :: pixels.py 44 gen_pixloc() - Pixel gap in the spatial direction = 0.000
+[INFO]    :: pixels.py 45 gen_pixloc() - Pixel size in the spatial direction = 1.000
+[INFO]    :: pixels.py 50 gen_pixloc() - Saving pixel locations
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: combine.py 62 comb_frames() - Combining 5 trace_image frames
+[WORK IN ]::
+[PROGRESS]:: combine.py 66 comb_frames() - lscomb feature has not been included here yet...
+[INFO]    :: combine.py 95 comb_frames() - Finding saturated and non-linear pixels
+[INFO]    :: combine.py 119 comb_frames() - Rejecting cosmic rays
+[INFO]    :: combine.py 163 comb_frames() - Not rejecting any low/high pixels
+[INFO]    :: combine.py 171 comb_frames() - Rejecting deviant pixels
+[INFO]    :: combine.py 188 comb_frames() - Combining frames with a weightmean operation
+[INFO]    :: combine.py 201 comb_frames() - Replacing completely masked pixels with the maxnonsat value of the input frames
+[INFO]    :: combine.py 215 comb_frames() - 5 trace_image frames combined successfully!
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: trace_slits.py 813 edgearr_from_binarr() - Detecting slit edges in the mstrace image
+[INFO]    :: trace_slits.py 874 edgearr_from_binarr() - Applying bad pixel mask
+[INFO]    :: trace_slits.py 933 edgearr_add_left_right() - 1 left edge and 1 right edge were found in the trace
+[INFO]    :: trace_slits.py 960 edgearr_add_left_right() - Assigning slit edge traces
+[INFO]    :: traceslits.py 371 _assign_edges() - Assigning left slit edges
+[INFO]    :: traceslits.py 379 _assign_edges() - Assigning right slit edges
+[INFO]    :: trace_slits.py 1157 edgearr_final_left_right() - 1 left edge and 1 right edge were found in the trace
+[INFO]    :: trace_slits.py 560 edgearr_tcrude() - Crude tracing the edges
+[INFO]    :: trace_slits.py 1309 fit_edges() - Fitting left slit traces
+[INFO]    :: trace_slits.py 1311 fit_edges() - Fitting right slit traces
+[INFO]    :: traceslits.py 404 _chk_for_longslit() - Only one slit was identified. Should be a longslit.
+[INFO]    :: traceslits.py 531 _make_pixel_arrays() - Converting physical trace locations to nearest pixel
+[INFO]    :: traceslits.py 538 _make_pixel_arrays() - Identifying the pixels belonging to each slit
+[INFO]    :: traceslits.py 921 save_master() - Wrote TraceSlit arrays to /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterTrace_A_01_aa.fits
+[INFO]    :: traceslits.py 923 save_master() - gzip compressing /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterTrace_A_01_aa.fits
+[INFO]    :: traceslits.py 937 save_master() - Writing TraceSlit dict to /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterTrace_A_01_aa.json
+[INFO]    :: arc.py 114 get_censpec() - Extracting an approximate arc spectrum at the centre of each slit
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: arc.py 69 setup_param() - Loading line list using CdI,HgI,HeI lamps
+[INFO]    :: ararclines.py 67 load_arcline_list() - Rejecting select CdI lines
+[WARNING] :: ararclines.py 99 reject_lines() - Am not sure this method does anything for real -- JXP 03-Jul-2018
+[INFO]    :: ararclines.py 67 load_arcline_list() - Rejecting select HgI lines
+[WARNING] :: ararclines.py 99 reject_lines() - Am not sure this method does anything for real -- JXP 03-Jul-2018
+[INFO]    :: ararclines.py 75 load_arcline_list() - Cutting down line list by wvmnx: 2900,6000
+[INFO]    :: masters.py 314 save_master() - Saving master wv_calib frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterWaveCalib_A_01_aa.json
+[INFO]    :: masters.py 347 save_master() - Master wv_calib frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterWaveCalib_A_01_aa.json
+[INFO]    :: arc.py 114 get_censpec() - Extracting an approximate arc spectrum at the centre of each slit
+[WORK IN ]::
+[PROGRESS]:: tracewave.py 200 trace_tilt() - Detecting lines for slit 1
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: tracewave.py 264 trace_tilt() - Modelling arc line tilts with 9 arc lines
+[WORK IN ]::
+[PROGRESS]:: tracewave.py 270 trace_tilt() - This next step could be multiprocessed to speed up the reduction
+[INFO]    :: tracewave.py 444 trace_tilt() - Completed spectral tilt tracing
+[WARNING] :: wavetilts.py 193 _analyze_lines() - There were 1 additional arc lines that should have been traced
+             (perhaps lines were saturated?). Check the spectral tilt solution
+[INFO]    :: tracewave.py 780 fit_tilts() - Fitting tilts with a low order, 2D legendre
+[WORK IN ]::
+[PROGRESS]:: utils.py 747 polyfit2d_general() - Generalize to different polynomial types
+[INFO]    :: tracewave.py 797 fit_tilts() - RMS (pixels): 0.002125381002749555
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[INFO]    :: combine.py 62 comb_frames() - Combining 5 pixelflat frames
+[WORK IN ]::
+[PROGRESS]:: combine.py 66 comb_frames() - lscomb feature has not been included here yet...
+[INFO]    :: combine.py 95 comb_frames() - Finding saturated and non-linear pixels
+[INFO]    :: combine.py 119 comb_frames() - Rejecting cosmic rays
+[INFO]    :: combine.py 163 comb_frames() - Not rejecting any low/high pixels
+[INFO]    :: combine.py 171 comb_frames() - Rejecting deviant pixels
+[INFO]    :: combine.py 188 comb_frames() - Combining frames with a weightmean operation
+[INFO]    :: combine.py 201 comb_frames() - Replacing completely masked pixels with the maxnonsat value of the input frames
+[INFO]    :: combine.py 215 comb_frames() - 5 pixelflat frames combined successfully!
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: flatfield.py 285 run() - Setting pixels outside of slits to 1. in the flat.
+[INFO]    :: masters.py 314 save_master() - Saving master pixelflat frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterFlatField_A_01_aa.fits
+[INFO]    :: masters.py 332 save_master() - Writing header information
+[INFO]    :: masters.py 347 save_master() - Master pixelflat frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterFlatField_A_01_aa.fits
+[INFO]    :: masters.py 314 save_master() - Saving master pixelflat frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: masters.py 332 save_master() - Writing header information
+[INFO]    :: masters.py 347 save_master() - Master pixelflat frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterSlitProfile_A_01_aa.fits
+[INFO]    :: masters.py 314 save_master() - Saving master wave frame as:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterWave_A_01_aa.fits
+[INFO]    :: masters.py 332 save_master() - Writing header information
+[INFO]    :: masters.py 347 save_master() - Master wave frame saved successfully:
+             /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterWave_A_01_aa.fits
+[INFO]    :: arms.py 158 ARMS() - Working on the science frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() - 10656 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() -  8410 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() - 18038 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 18038 pixels identified as cosmic rays (18038 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=614882 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.006        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.006, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=616685 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.291     6782        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.168     7268        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.161     7388        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.159     7435        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.159     7468        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.158     7491        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.158     7519        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.157     7534        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.157     7542        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                10   1.157     7548        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                11   1.157     7551        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                12   1.157     7554        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                13   1.157     7557        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                14   1.157     7560        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                15   1.157     7562        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                16   1.157     7564        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                17   1.157     7565        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                18   1.157     7565        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after 18 iterations: reduced_chi =    1.157, rejected =    7565, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 397 trace_objects_in_slit() - Found 1 object
+[INFO]    :: artrace.py 398 trace_objects_in_slit() - Tracing 1 object
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 446 trace_objects_in_slit() - Converting object trace to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 1 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=578200 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.006        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.006, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=579909 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.290     6649        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.156     7341        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.145     7549        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.141     7630        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.140     7668        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.140     7689        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.139     7708        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.139     7721        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.139     7726        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                10   1.139     7732        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                11   1.139     7739        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                12   1.139     7742        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                13   1.139     7743        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                14   1.138     7743        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after 14 iterations: reduced_chi =    1.138, rejected =    7743, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 397 trace_objects_in_slit() - Found 1 object
+[INFO]    :: artrace.py 398 trace_objects_in_slit() - Tracing 1 object
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 446 trace_objects_in_slit() - Converting object trace to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 1 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/1 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: scienceimage.py 358 extraction() - Update model variance image (and trace?) and repeat
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WORK IN ]::
+[PROGRESS]:: wave.py 275 flexure_obj() - Consider doing 2 passes in flexure as in LowRedux
+[INFO]    :: wave.py 291 flexure_obj() - Working on flexure in slit (if an object was detected): 0
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=466.619
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -0.972295 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: arms.py 241 ARMS() - Performing a heliocentric correction
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: arms.py 280 ARMS() - Processing standard star
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() - 20438 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() - 14928 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() - 32636 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 32636 pixels identified as cosmic rays (32636 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=134727 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.461        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.461, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=539795 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   2.115    26113        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   0.910    29482        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   0.850    30018        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   0.841    30128        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   0.839    30148        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   0.838    30150        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   0.838    30150        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  7 iterations: reduced_chi =    0.838, rejected =   30150, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[INFO]    :: artrace.py 397 trace_objects_in_slit() - Found 1 object
+[INFO]    :: artrace.py 398 trace_objects_in_slit() - Tracing 1 object
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 446 trace_objects_in_slit() - Converting object trace to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 1 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=39879 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.030        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.030, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=411416 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.699      319        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   0.691      328        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   0.691      328        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  3 iterations: reduced_chi =    0.691, rejected =     328, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/1 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J1620+4333_KASTb_2018Aug17T065712.64.fits
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: save.py 731 save_2d_images() - Wrote: Science/spec2d_J1620+4333_KASTb_2018Aug17T065712.64.fits
+[INFO]    :: arms.py 102 ARMS() - Reducing file b121.fits, target J1620+4333
+[INFO]    :: arms.py 114 ARMS() - Working on detector 1
+[INFO]    :: calibrations.py 223 get_bias() - Reloading the bias from the internal dict
+[INFO]    :: pixels.py 37 gen_pixloc() - Deriving physical pixel locations on the detector
+[INFO]    :: pixels.py 40 gen_pixloc() - Pixel gap in the dispersion direction = 0.000
+[INFO]    :: pixels.py 41 gen_pixloc() - Pixel size in the dispersion direction = 1.000
+[INFO]    :: pixels.py 44 gen_pixloc() - Pixel gap in the spatial direction = 0.000
+[INFO]    :: pixels.py 45 gen_pixloc() - Pixel size in the spatial direction = 1.000
+[INFO]    :: pixels.py 50 gen_pixloc() - Saving pixel locations
+[INFO]    :: arms.py 158 ARMS() - Working on the science frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() - 11135 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() -  8612 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() - 18688 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 18688 pixels identified as cosmic rays (18688 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=616174 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.005        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.005, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=617268 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.326     7387        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.192     7952        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.184     8124        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.181     8207        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.180     8248        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.179     8270        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.179     8290        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.179     8307        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.178     8322        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                10   1.178     8329        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                11   1.178     8337        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                12   1.178     8344        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                13   1.178     8347        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                14   1.178     8350        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                15   1.178     8351        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                16   1.178     8352        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                17   1.178     8352        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after 17 iterations: reduced_chi =    1.178, rejected =    8352, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 397 trace_objects_in_slit() - Found 1 object
+[INFO]    :: artrace.py 398 trace_objects_in_slit() - Tracing 1 object
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 446 trace_objects_in_slit() - Converting object trace to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 1 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=575325 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.005        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.005, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=576338 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.333     7353        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.182     8176        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.169     8459        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.164     8561        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.163     8610        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.162     8630        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.162     8649        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.161     8658        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.161     8663        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                10   1.161     8664        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                11   1.161     8665        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                12   1.161     8666        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                13   1.161     8668        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                14   1.161     8669        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                15   1.161     8670        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                16   1.161     8671        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                17   1.161     8672        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                18   1.161     8673        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                19   1.161     8673        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after 19 iterations: reduced_chi =    1.161, rejected =    8673, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 397 trace_objects_in_slit() - Found 1 object
+[INFO]    :: artrace.py 398 trace_objects_in_slit() - Tracing 1 object
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 446 trace_objects_in_slit() - Converting object trace to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 1 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/1 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: scienceimage.py 358 extraction() - Update model variance image (and trace?) and repeat
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/1 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WORK IN ]::
+[PROGRESS]:: wave.py 275 flexure_obj() - Consider doing 2 passes in flexure as in LowRedux
+[INFO]    :: wave.py 291 flexure_obj() - Working on flexure in slit (if an object was detected): 0
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=525.635
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.11224 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: arms.py 241 ARMS() - Performing a heliocentric correction
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: arms.py 280 ARMS() - Processing standard star
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J1620+4333_KASTb_2018Aug17T072826.07.fits
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: save.py 731 save_2d_images() - Wrote: Science/spec2d_J1620+4333_KASTb_2018Aug17T072826.07.fits
+[INFO]    :: arms.py 102 ARMS() - Reducing file b123.fits, target J2215+0127
+[INFO]    :: arms.py 114 ARMS() - Working on detector 1
+[INFO]    :: calibrations.py 223 get_bias() - Reloading the bias from the internal dict
+[INFO]    :: pixels.py 37 gen_pixloc() - Deriving physical pixel locations on the detector
+[INFO]    :: pixels.py 40 gen_pixloc() - Pixel gap in the dispersion direction = 0.000
+[INFO]    :: pixels.py 41 gen_pixloc() - Pixel size in the dispersion direction = 1.000
+[INFO]    :: pixels.py 44 gen_pixloc() - Pixel gap in the spatial direction = 0.000
+[INFO]    :: pixels.py 45 gen_pixloc() - Pixel size in the spatial direction = 1.000
+[INFO]    :: pixels.py 50 gen_pixloc() - Saving pixel locations
+[INFO]    :: arms.py 158 ARMS() - Working on the science frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() -  8414 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() -  6932 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() - 14319 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 14319 pixels identified as cosmic rays (14319 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=573025 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.009        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.009, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=596057 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.295     7857        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.123     8108        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.119     8149        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.119     8165        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.118     8174        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.118     8181        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.118     8186        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.118     8188        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.118     8188        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  9 iterations: reduced_chi =    1.118, rejected =    8188, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 3 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 3 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 3 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=481397 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.008        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.008, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=501293 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.212     4205        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.118     4425        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.114     4472        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.113     4496        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.113     4513        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.113     4519        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.113     4524        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.113     4526        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.112     4526        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  9 iterations: reduced_chi =    1.112, rejected =    4526, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 3 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 3 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 3 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/3 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 2/3 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 3/3 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 3/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 3/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[INFO]    :: scienceimage.py 358 extraction() - Update model variance image (and trace?) and repeat
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 3/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 3/3 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[WORK IN ]::
+[PROGRESS]:: wave.py 275 flexure_obj() - Consider doing 2 passes in flexure as in LowRedux
+[INFO]    :: wave.py 291 flexure_obj() - Working on flexure in slit (if an object was detected): 0
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=533.206
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.07215 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.4077681393152 .. 186.92450257417232
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.4077681393152 .. 186.92450257417232
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=513.427
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.08735 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]            
+   int64                    float64                  ...                float64               
+----------- ---------------------------------------- ... -------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.934696596545 .. 316.3093320877041
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]            
+   int64                    float64                  ...                float64               
+----------- ---------------------------------------- ... -------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.934696596545 .. 316.3093320877041
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=545.296
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.08347 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: arms.py 241 ARMS() - Performing a heliocentric correction
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.4077681393152 .. 186.92450257417232
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.4077681393152 .. 186.92450257417232
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]            
+   int64                    float64                  ...                float64               
+----------- ---------------------------------------- ... -------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.934696596545 .. 316.3093320877041
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]            
+   int64                    float64                  ...                float64               
+----------- ---------------------------------------- ... -------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.934696596545 .. 316.3093320877041
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: arms.py 280 ARMS() - Processing standard star
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T112846.50.fits
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: save.py 731 save_2d_images() - Wrote: Science/spec2d_J2215+0127_KASTb_2018Aug17T112846.50.fits
+[INFO]    :: arms.py 102 ARMS() - Reducing file b124.fits, target J2215+0127
+[INFO]    :: arms.py 114 ARMS() - Working on detector 1
+[INFO]    :: calibrations.py 223 get_bias() - Reloading the bias from the internal dict
+[INFO]    :: pixels.py 37 gen_pixloc() - Deriving physical pixel locations on the detector
+[INFO]    :: pixels.py 40 gen_pixloc() - Pixel gap in the dispersion direction = 0.000
+[INFO]    :: pixels.py 41 gen_pixloc() - Pixel size in the dispersion direction = 1.000
+[INFO]    :: pixels.py 44 gen_pixloc() - Pixel gap in the spatial direction = 0.000
+[INFO]    :: pixels.py 45 gen_pixloc() - Pixel size in the spatial direction = 1.000
+[INFO]    :: pixels.py 50 gen_pixloc() - Saving pixel locations
+[INFO]    :: arms.py 158 ARMS() - Working on the science frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() -  8405 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() -  6931 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() - 14294 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 14294 pixels identified as cosmic rays (14294 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=572898 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.008        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.008, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=594995 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.290     7744        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.122     7965        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.119     8009        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.118     8032        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.118     8041        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.118     8044        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.118     8045        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.118     8045        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  8 iterations: reduced_chi =    1.118, rejected =    8045, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 2 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 2 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 2 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=502138 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.008        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.008, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=521975 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.206     4366        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.112     4586        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.108     4633        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.107     4652        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.107     4661        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.107     4664        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.107     4667        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.107     4668        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.107     4668        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  9 iterations: reduced_chi =    1.107, rejected =    4668, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 2 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 2 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 2 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/2 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 2/2 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[INFO]    :: scienceimage.py 358 extraction() - Update model variance image (and trace?) and repeat
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[WORK IN ]::
+[PROGRESS]:: wave.py 275 flexure_obj() - Consider doing 2 passes in flexure as in LowRedux
+[INFO]    :: wave.py 291 flexure_obj() - Working on flexure in slit (if an object was detected): 0
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=523.325
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.13521 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 185.52385498378348 .. 186.35968833409086
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 185.52385498378348 .. 186.35968833409086
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=505.308
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.14417 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: arms.py 241 ARMS() - Performing a heliocentric correction
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 185.52385498378348 .. 186.35968833409086
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 185.52385498378348 .. 186.35968833409086
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...              trace [2048]             
+   int64                    float64                  ...                float64                
+----------- ---------------------------------------- ... --------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: arms.py 280 ARMS() - Processing standard star
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T114924.74.fits
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: save.py 731 save_2d_images() - Wrote: Science/spec2d_J2215+0127_KASTb_2018Aug17T114924.74.fits
+[INFO]    :: arms.py 102 ARMS() - Reducing file b125.fits, target J2215+0127
+[INFO]    :: arms.py 114 ARMS() - Working on detector 1
+[INFO]    :: calibrations.py 223 get_bias() - Reloading the bias from the internal dict
+[INFO]    :: pixels.py 37 gen_pixloc() - Deriving physical pixel locations on the detector
+[INFO]    :: pixels.py 40 gen_pixloc() - Pixel gap in the dispersion direction = 0.000
+[INFO]    :: pixels.py 41 gen_pixloc() - Pixel size in the dispersion direction = 1.000
+[INFO]    :: pixels.py 44 gen_pixloc() - Pixel gap in the spatial direction = 0.000
+[INFO]    :: pixels.py 45 gen_pixloc() - Pixel size in the spatial direction = 1.000
+[INFO]    :: pixels.py 50 gen_pixloc() - Saving pixel locations
+[INFO]    :: arms.py 158 ARMS() - Working on the science frame
+[INFO]    :: processimages.py 279 bias_subtract() - Bias subtracting your image(s)
+[INFO]    :: processimages.py 286 bias_subtract() - Subtracting bias image from raw frame
+[WARNING] :: procimg.py 456 gain_frame() - Should probably be measuring the gain across the amplifier boundary
+[INFO]    :: processimages.py 509 build_rawvarframe() - Generate raw variance frame (from detected counts [flat fielded])
+[INFO]    :: procimg.py 235 lacosmic() - Detecting cosmic rays with the L.A.Cosmic algorithm
+[INFO]    :: procimg.py 259 lacosmic() - Convolving image with Laplacian kernel
+[INFO]    :: procimg.py 267 lacosmic() - Creating noise model
+[INFO]    :: procimg.py 274 lacosmic() - Calculating Laplacian signal to noise ratio
+[INFO]    :: procimg.py 282 lacosmic() - Selecting candidate cosmic rays
+[INFO]    :: procimg.py 287 lacosmic() -  4454 candidate pixels
+[INFO]    :: procimg.py 297 lacosmic() - Building fine structure image
+[INFO]    :: procimg.py 306 lacosmic() - Removing suspected compact bright objects
+[INFO]    :: procimg.py 316 lacosmic() -  3896 remaining candidate pixels
+[INFO]    :: procimg.py 320 lacosmic() - Finding neighboring pixels affected by cosmic rays
+[INFO]    :: procimg.py 341 lacosmic() -  7882 pixels detected as cosmics
+[INFO]    :: procimg.py 350 lacosmic() - Iteration 1 -- 7882 pixels identified as cosmic rays (7882 new)
+[WORK IN ]::
+[PROGRESS]:: procimg.py 353 lacosmic() - The following algorithm would be better on the rectified, tilts-corrected image
+[INFO]    :: procimg.py 365 lacosmic() - Growing cosmic ray mask by 1 pixel
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=598989 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.007        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.007, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=608657 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.330     7966        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.170     8271        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.166     8326        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.165     8346        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.165     8353        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.165     8357        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.165     8360        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.165     8362        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.165     8363        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                10   1.165     8365        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                11   1.165     8367        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                12   1.165     8367        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after 12 iterations: reduced_chi =    1.165, rejected =    8367, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 2 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 2 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 2 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 462 global_skysub() - Working on slit: 0
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=523319 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   0.007        0        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  1 iterations: reduced_chi =    0.007, rejected =       0, relative_factor =   1.00
+[INFO]    :: utils.py 191 bspline_profile() - Fitting npoly =  1 profile basis functions, nx=531953 pixels
+[INFO]    :: utils.py 192 bspline_profile() - ****************************  Iter  Chi^2  # rejected  Rel. fact   ****************************
+[INFO]    :: utils.py 193 bspline_profile() -                               ----  -----  ----------  --------- 
+[INFO]    :: utils.py 274 bspline_profile() -                                 1   1.267     5499        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 2   1.149     5885        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 3   1.142     5977        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 4   1.141     6009        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 5   1.140     6023        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 6   1.140     6029        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 7   1.140     6032        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 8   1.140     6034        1.00
+[INFO]    :: utils.py 274 bspline_profile() -                                 9   1.140     6034        1.00
+[INFO]    :: utils.py 280 bspline_profile() - ***********************************************************************************************
+[INFO]    :: utils.py 283 bspline_profile() - Final fit after  9 iterations: reduced_chi =    1.140, rejected =    6034, relative_factor =   1.00
+[INFO]    :: scienceimage.py 476 global_skysub() - Building model variance from the Sky frame
+[INFO]    :: scienceimage.py 404 find_objects() - Finding objects in slit: 0
+[INFO]    :: artrace.py 276 trace_objects_in_slit() - Rectifying science frame
+[INFO]    :: artrace.py 297 trace_objects_in_slit() - Estimating object profiles
+[INFO]    :: artrace.py 325 trace_objects_in_slit() - Identifying objects that are significantly detected
+[WARNING] :: artrace.py 356 trace_objects_in_slit() - Removed objects near the slit edges
+[INFO]    :: artrace.py 400 trace_objects_in_slit() - Found 2 objects
+[INFO]    :: artrace.py 401 trace_objects_in_slit() - Tracing 2 objects
+[INFO]    :: artrace.py 437 trace_objects_in_slit() - Performing global trace to all objects
+[INFO]    :: artrace.py 440 trace_objects_in_slit() - Constructing a trace for all objects
+[INFO]    :: artrace.py 448 trace_objects_in_slit() - Converting object traces to detector pixels
+[INFO]    :: artrace.py 85 trace_objbg_image() - Creating an image weighted by object pixels for 2 objects
+[INFO]    :: artrace.py 94 trace_objbg_image() - Creating an image weighted by background pixels
+[INFO]    :: scienceimage.py 275 boxcar() - Performing boxcar extraction
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 1/2 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: extract.py 1628 boxcar() - Performing boxcar extraction of object 2/2 in slit 1/1
+[INFO]    :: extract.py 1637 boxcar() -    Fitting the background
+[INFO]    :: extract.py 1669 boxcar() -    Summing object counts
+[INFO]    :: extract.py 1672 boxcar() -    Summing variance array
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[INFO]    :: scienceimage.py 358 extraction() - Update model variance image (and trace?) and repeat
+[INFO]    :: scienceimage.py 303 original_optimal() - Attempting optimal extraction with model profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1763 obj_profiles() - Should probably loop on S/N
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1765 obj_profiles() - Deriving spatial profile of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1791 obj_profiles() - Good S/N for profile
+[WORK IN ]::
+[PROGRESS]:: extract.py 1801 obj_profiles() - Weight by S/N in boxcar extraction? [avoid CRs; smooth?]
+[WORK IN ]::
+[PROGRESS]:: extract.py 1810 obj_profiles() - Might give our own guess here instead of using default
+[WORK IN ]::
+[PROGRESS]:: extract.py 1830 obj_profiles() - Consider flagging/removing CRs here
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 1/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[INFO]    :: extract.py 1973 optimal_extract() - Performing optimal extraction of object 2/2 in slit 1/1
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1716 slit_image() - Use 2D spline to evaluate tilts
+[WORK IN ]::
+[PROGRESS]:: artrace.py 1721 slit_image() - Should worry about changing plate scale
+[WARNING] :: extract.py 2015 optimal_extract() - Replacing fully masked regions with mean wavelengths
+[WORK IN ]::
+[PROGRESS]:: wave.py 275 flexure_obj() - Consider doing 2 passes in flexure as in LowRedux
+[INFO]    :: wave.py 291 flexure_obj() - Working on flexure in slit (if an object was detected): 0
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=520.725
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.20225 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 184.71302788964024 .. 184.73370936339174
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 184.71302788964024 .. 184.73370936339174
+[WARNING] :: wave.py 44 flex_shift() - If we use Paranal, cut down on wavelength early on
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: arc.py 207 detect_lines() - Detecting lines
+[INFO]    :: arc.py 218 detect_lines() - Detecting the strongest, nonsaturated lines
+[INFO]    :: wave.py 72 flex_shift() - Resolution of Archive=607.431 and Observation=536.72
+[WARNING] :: wave.py 86 flex_shift() - Prefer archival sky spectrum to have higher resolution
+[WARNING] :: wave.py 88 flex_shift() - New Sky has higher resolution than Archive.  Not smoothing
+[WORK IN ]::
+[PROGRESS]:: wave.py 137 flex_shift() - Need to mask bad pixels
+[WORK IN ]::
+[PROGRESS]:: wave.py 140 flex_shift() - Consider taking median first [5 pixel]
+[WORK IN ]::
+[PROGRESS]:: wave.py 153 flex_shift() - Consider taking median first [5 pixel]
+[INFO]    :: wave.py 172 flex_shift() - Flexure correction of -1.20957 pixels
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: wave.py 318 flexure_obj() - Applying flexure correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: arms.py 241 ARMS() - Performing a heliocentric correction
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 184.71302788964024 .. 184.73370936339174
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 184.71302788964024 .. 184.73370936339174
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to boxcar extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: wave.py 392 geomotion_correct() - Applying heliocentric correction to optimal extraction for object:
+             <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]             
+   int64                    float64                  ...                 float64                
+----------- ---------------------------------------- ... ---------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: arms.py 280 ARMS() - Processing standard star
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T121000.47.fits
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[WARNING] :: parse.py 648 parse_binning() - Unable to parse input binning: None
+[WARNING] :: parse.py 649 parse_binning() - Assuming unbinned, i.e.  1x1
+[INFO]    :: save.py 731 save_2d_images() - Wrote: Science/spec2d_J2215+0127_KASTb_2018Aug17T121000.47.fits
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_BD+174708_KASTb_2018Aug17T110330.42.fits
+[INFO]    :: arms.py 392 ARMS() - Taking one star per detector mosaic
+[INFO]    :: arms.py 393 ARMS() - Waited until very end to work on it
+[WARNING] :: arms.py 394 ARMS() - You should probably consider using the pypeit_flux_spec script anyhow...
+[INFO]    :: fluxspec.py 130 __init__() - Spectrograph set to <ShaneKastBlueSpectrograph:  spectrograph=shane_kast_blue, camera=KASTb>, from argument object
+[INFO]    :: flux.py 367 load_extinction_data() - Using mthamextinct.dat for extinction corrections.
+[INFO]    :: flux.py 443 find_standard() - Putative standard star <Table length=1>
+ shape [2]             slit_spat_pos [2]             ...               trace [2048]              
+   int64                    float64                  ...                 float64                 
+----------- ---------------------------------------- ... ----------------------------------------
+2048 .. 365 36.990997446609704 .. 344.39834088993143 ... 186.88486207868928 .. 188.09213596091988 has a median boxcar count of 30554.84767022392
+[INFO]    :: flux.py 300 find_standard_file() - Using standard star BD+174708
+[INFO]    :: flux.py 404 load_standard_file() - Loading standard star file: /Users/astro/anaconda3/pkgs/PypeIt/pypeit/data/standards/calspec/bd_17d4708_stisnic_002.fits.gz
+[INFO]    :: flux.py 405 load_standard_file() - Fluxes are flambda, normalized to 1e-17
+[INFO]    :: flux.py 507 generate_sensfunc() - Masking edges
+[WARNING] :: flux.py 513 generate_sensfunc() - Should pull resolution from arc line analysis
+[INFO]    :: flux.py 517 generate_sensfunc() - Masking Balmer
+[INFO]    :: flux.py 525 generate_sensfunc() - Masking Telluric
+[INFO]    :: flux.py 532 generate_sensfunc() - Masking Below the atmospheric cutoff
+[INFO]    :: flux.py 203 bspline_magfit() - Difference between fits is 8.76677e-05
+[WORK IN ]::
+[PROGRESS]:: flux.py 206 bspline_magfit() - Add QA for sensitivity function
+[INFO]    :: fluxspec.py 391 save_master() - Wrote sensfunc to MasterFrame: /Users/astro/Desktop/GitHub/HSC_BCG_specz/Redux/2018Aug16/MF_shane_kast_blue/MasterSensFunc_A_aa.yaml
+[INFO]    :: arms.py 416 ARMS() - Fluxing with BD+174708
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]             
+   int64          float64      ...                float64                
+------------ ----------------- ... --------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]             
+   int64          float64      ...                float64                
+------------ ----------------- ... --------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 188.7609590680944 .. 189.3975397982579
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J1620+4333_KASTb_2018Aug17T065712.64.fits
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 186.3602354744043 .. 188.25279722280627
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J1620+4333_KASTb_2018Aug17T072826.07.fits
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 186.4077681393152 .. 186.92450257417232
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 186.4077681393152 .. 186.92450257417232
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]            
+   int64          float64      ...                float64               
+------------ ----------------- ... -------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.934696596545 .. 316.3093320877041
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]            
+   int64          float64      ...                float64               
+------------ ----------------- ... -------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.934696596545 .. 316.3093320877041
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 106.20646354881652 .. 106.18786437887283
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T112846.50.fits
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 185.52385498378348 .. 186.35968833409086
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 185.52385498378348 .. 186.35968833409086
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]             
+   int64          float64      ...                float64                
+------------ ----------------- ... --------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...              trace [2048]             
+   int64          float64      ...                float64                
+------------ ----------------- ... --------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.3961441158243 .. 316.0921837614313
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T114924.74.fits
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 184.71302788964024 .. 184.73370936339174
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]              
+   int64          float64      ...                 float64                 
+------------ ----------------- ... ----------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 184.71302788964024 .. 184.73370936339174
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing boxcar extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: flux.py 46 apply_sensfunc() - Fluxing optimal extraction for:
+             <Table length=1>
+ shape [2]   slit_spat_pos [2] ...               trace [2048]             
+   int64          float64      ...                 float64                
+------------ ----------------- ... ---------------------------------------
+2048 .. 1024  0.0001 .. 0.0001 ... 314.6909047248925 .. 315.57917215258635
+[INFO]    :: save.py 452 save_1d_spectra_fits() - Wrote 1D spectra to Science/spec1d_J2215+0127_KASTb_2018Aug17T121000.47.fits
+[INFO]    :: pypeit.py 126 PypeIt() - Data reduction complete
+[INFO]    :: pypeit.py 128 PypeIt() - Generating QA HTML
+[INFO]    :: pypeit.py 142 PypeIt() - Data reduction execution time: 3m 6.83s

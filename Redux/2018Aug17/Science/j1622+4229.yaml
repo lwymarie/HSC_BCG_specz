@@ -1,0 +1,4 @@
+'filenames': ['spec1d_J1622+4229_KASTb_2018Aug18T055847.74.fits','spec1d_J1622+4229_KASTb_2018Aug18T062916.96.fits','spec1d_J1622+4229_KASTb_2018Aug18T070237.01.fits']
+'a':
+    'object': 'O0183-S001-D01-I0024'
+    'outfile': 'j1622+4229.hdf5'

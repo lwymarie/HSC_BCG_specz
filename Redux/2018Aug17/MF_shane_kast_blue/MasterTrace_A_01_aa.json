@@ -1,0 +1,63 @@
+{
+    "settings": {
+        "diffpolyorder": 2,
+        "fracignore": 0.01,
+        "function": "legendre",
+        "maxgap": null,
+        "maxshift": 0.15,
+        "medrep": 0,
+        "number": -1,
+        "pad": 0,
+        "pcaextrap": [
+            0,
+            0
+        ],
+        "pcapar": [
+            3,
+            2,
+            1,
+            0,
+            0,
+            0
+        ],
+        "pcatype": "pixel",
+        "polyorder": 3,
+        "sigdetect": 20.0,
+        "single": [],
+        "sobel_mode": "nearest",
+        "trim": [
+            3,
+            3
+        ]
+    },
+    "steps": [
+        "make_binarr",
+        "_edgearr_from_binarr",
+        "_match_edges",
+        "_add_left_right",
+        "_assign_edges",
+        "_final_left_right",
+        "_mslit_tcrude",
+        "_mslit_sync",
+        "_fit_edges_left",
+        "_fit_edges_right"
+    ],
+    "tc_dict": {
+        "left": {
+            "flags": [
+                1
+            ],
+            "xval": {
+                "-100000": 42
+            }
+        },
+        "right": {
+            "flags": [
+                1
+            ],
+            "xval": {
+                "100000": 350
+            }
+        }
+    }
+}
